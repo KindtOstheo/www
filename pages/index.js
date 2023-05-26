@@ -12,10 +12,14 @@ import { useEffect, useRef } from "react";
 import { TbQuote } from "react-icons/tb";
 import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useTina, tinaField } from 'tinacms/dist/react'
 
 const Home = ({ banner, features, speciality }) => {
   const paginationRef = useRef(null);
   const testimonialPaginationRef = useRef(null);
+
+  // Pass our data through the "useTina" hook to make it editable
+  const { Tinabanner } = useTina({banner})
 
   useEffect(() => {
     const ctx = gsap.context(() => {
@@ -161,14 +165,15 @@ const Home = ({ banner, features, speciality }) => {
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pt-20 pb-10 text-center">
+                  <div className="banner-content col-10 pt-20 pb-10 text-center" >
                     {markdownify(
                       banner.title,
                       "h1",
                       "mb-8 banner-title opacity-0"
                     )}
                     <div className="banner-btn opacity-0">
-                      <Link className="btn btn-primary" href={banner.link.href}>
+                      <Link className="btn btn-primary" 
+                      href={banner.link.href} > 
                         {banner.link.label}
                       </Link>
                     </div>

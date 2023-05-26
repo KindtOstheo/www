@@ -1,4 +1,5 @@
 import { defineConfig } from "tinacms";
+import { indexFields } from "./home";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -14,36 +15,58 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "images",
       publicFolder: "public",
     },
   },
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        format: "md",
+        label: "Page d'accueil",
+        name: "page_d_accueil",
+        path: "content/",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "_index",
+        },
         fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-        /*ui: {
-          // This is an DEMO router. You can remove this to fit your site
-          router: ({ document }) => `/demo/blog/${document._sys.filename}`,
-        },*/
+          ...indexFields(),
+        ]
       },
+      /*{
+        format: "json",
+        label: "Configuration",
+        name: "configuration_general",
+        path: "config/",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          //...configFields(),
+        ]
+      },
+      {
+        format: "mdx",
+        label: "Blog",
+        name: "blog",
+        path: "content/posts/",
+        match: {*/
+          //include: "**/*",
+          /*exclude:"_index.md",
+        },
+        fields: [
+          //...blogFields(),
+        ],
+      },*/
     ],
   },
 });

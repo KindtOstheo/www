@@ -3,8 +3,8 @@ banner:
   title: "Andromeda is the most intuitive </br> way to prototype Designs"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
-    href: "#"
+    label: Suivez Moi
+    href: "https://www.facebook.com/OrlDentaireDraguignan"
 
 #features
 features:
