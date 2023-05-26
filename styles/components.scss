@@ -23,10 +23,10 @@
   li {
     @apply inline-block;
     a {
-      @apply block h-11 w-11 rounded-full border text-center hover:text-primary hover:border-primary transition-all duration-300;
+      @apply block h-11 w-11 text-center hover:text-primary hover:border-primary transition-all duration-300;
 
       svg {
-        @apply m-auto h-11;
+        @apply m-auto h-11 w-auto;
       }
     }
   }
