@@ -6,18 +6,6 @@ banner:
     label: Get Premium Version
     href: "#"
 
-##brands
-brands:
-  - /images/brands/01-colored.png
-  - /images/brands/02-colored.png
-  - /images/brands/03-colored.png
-  - /images/brands/04-colored.png
-  - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
-  - /images/brands/04-colored.png
-  - /images/brands/05-colored.png
-  - /images/brands/06-colored.png
-
 #features
 features:
   sub_title: SPECIAL FEATURES
@@ -43,65 +31,19 @@ features:
       title: Magnetic Turning
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
 
-#intro
-intro:
-  title: Built Exclusively For You
-  subtitle: SHORT INTRO VIDEO
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
-  thumbnail: "/images/video-popup.jpg"
-  video_id: dyZcRRWiuuw
 
 #speciality
 speciality:
   primary:
-    title: You Will Not Miss Your All Misunderstandings
-    subtitle: PRIMARY SPECIALITY
-    description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistency throughout the.
-    image: /images/features-01.png
+    title: OSTÉOPATHIE ORL
+    subtitle:  SPEIALITÉ
+    description: L’ostéopathie a d’excellents résultats dans les traitements ORL tels que les vertiges, les acouphènes, l’otalgie ou pour la prévention d’otites, etc. Un des motifs les plus fréquents est le vertige caractérisé par un état similaire de l’ébriété avec des déséquilibres, des illusions de mouvements le plus souvent liées à un problème de la fonction de l’équilibre qui est assurée par l’oreille interne.
+    image: /images/osteo-orl.jpg
   secondary:
-    title: Say Hello To No-Code The Advance Creation
-    subtitle: SECONDARY SPECIALITY
-    description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
+    title: OSTÉOPATHIE CRÂNIENNE
+    subtitle: SPEIALITÉ
+    description: L’ostéopathie crânienne est une pratique qui vise à diagnostiquer et à traiter la mobilité au niveau de la boite crânienne. Le mouvement présent est appelé mécanisme respiratoire primaire (ou MRP), car c’est un mouvement involontaire et rythmique, alternant des phases d’expansion et de rétraction à l’image de la respiration pulmonaire. La recherche par l’expérimentation instrumentale a permis de démontrer la présence d’un mouvement d’une amplitude de 15 à 25 microns, cette mobilité est donc très faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 
-
-#Testimonial
-testimonial:
-  title: OUR TESTIMONIALS
-  subtitle: Don’t Take Our Word For It
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
-  list:
-    - author: David Cameron
-      avatar: /images/user-img/01.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/02.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/03.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/04.png
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/05.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/06.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/07.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-    - author: David Cameron
-      avatar: /images/user-img/08.jpg
-      profession: CEO, Nexuspay
-      content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
 
 ---
