@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Kindt Osthéopathe",
+    "title": "Kindt Ostéopathe",
     "base_url": "/",
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
-    "logo_height": "34",
-    "logo_text": "Kindt Osthéopathe"
+    "logo": "/images/logo.png",
+    "logo_width": "60",
+    "logo_height": "58",
+    "logo_text": "Kindt Ostéopathe"
   },
 
   "settings": {
@@ -37,7 +37,7 @@
   "metadata": {
     "meta_author": "Luc Van De Velde & Dominique Kindt",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Kindt Osthéopathe blog"
+    "meta_description": "Kindt Ostéopathe blog"
   },
 
   "call_to_action": {

@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
+  title: "L'équilibre : La Vie"
   image: /images/banner-app.png
   link:
     label: Suivez Moi
