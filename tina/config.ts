@@ -25,11 +25,17 @@ export default defineConfig({
         format: "md",
         label: "Page d'accueil",
         name: "page_d_accueil",
-        path: "content/",
+        path: "content",
         ui: {
           allowedActions: {
             create: false,
             delete: false,
+          },
+          router: ({ document }) => {
+            if (document._sys.filename === "_index") {
+              return `/`;
+            }
+            return undefined;
           },
         },
         match: {

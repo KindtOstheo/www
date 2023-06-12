@@ -1,3 +1,4 @@
+import React from "react";
 import config from "@config/config.json";
 import { gsap } from "@lib/gsap";
 import { plainify } from "@lib/utils/textConverter";
@@ -21,8 +22,13 @@ const Base = ({
   const router = useRouter();
   const main = useRef();
 
+  const [prefix, setPrefix] = React.useState("");
+
   //gsap fade animation
   useEffect(() => {
+    if (window && window.location.pathname.startsWith("/admin")) {
+      setPrefix("/admin");
+    } 
     const ctx = gsap.context(() => {
       //fade
       const fadeElements = document.querySelectorAll(".fade");

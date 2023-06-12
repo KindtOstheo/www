@@ -2,26 +2,36 @@ import Base from "@layouts/Baseof";
 import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
 import ImageFallback from "@layouts/components/ImageFallback";
-import VideoPopup from "@layouts/components/VideoPopup";
-import { getListPage } from "@lib/contentParser";
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
 import FeatherIcon from "feather-icons-react/build/FeatherIcon";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { TbQuote } from "react-icons/tb";
-import { Autoplay, Pagination } from "swiper";
+import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useTina, tinaField } from 'tinacms/dist/react'
+import { useTina } from 'tinacms/dist/react'
+import { TinaMarkdown } from "tinacms/dist/rich-text";
+import { client } from "../tina/__generated__/client";
 
-const Home = ({ banner, features, speciality }) => {
+
+export default function Home(props) {
+
   const paginationRef = useRef(null);
-  const testimonialPaginationRef = useRef(null);
+  
 
   // Pass our data through the "useTina" hook to make it editable
-  const { Tinabanner } = useTina({banner})
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  })
+
+  console.log(data)
+  
 
   useEffect(() => {
+    if (window && window.location.pathname.startsWith("/admin")) {
+    } 
     const ctx = gsap.context(() => {
       const banner = document.querySelector(".banner");
       const bannerBg = document.querySelector(".banner-bg");
@@ -99,6 +109,7 @@ const Home = ({ banner, features, speciality }) => {
 
     return () => ctx.revert();
   }, []);
+  
 
   return (
     <Base>
@@ -167,21 +178,21 @@ const Home = ({ banner, features, speciality }) => {
                 <div className="row relative justify-center pb-10">
                   <div className="banner-content col-10 pt-20 pb-10 text-center" >
                     {markdownify(
-                      banner.title,
+                      data.page_d_accueil.banner.title,
                       "h1",
                       "mb-8 banner-title opacity-0"
                     )}
                     <div className="banner-btn opacity-0">
                       <Link className="btn btn-primary" 
-                      href={banner.link.href} > 
-                        {banner.link.label}
+                      href={data.page_d_accueil.banner.link.href} > 
+                        {data.page_d_accueil.banner.link.label}
                       </Link>
                     </div>
                   </div>
                   <div className="col-10">
                     <ImageFallback
                       className="banner-img opacity-0"
-                      src={banner.image}
+                      src={data.page_d_accueil.banner.image}
                       width={1170}
                       height={666}
                       priority={true}
@@ -200,9 +211,9 @@ const Home = ({ banner, features, speciality }) => {
       <section className="section">
         <div className="container text-center">
           <div className="animate">
-            <p className="uppercase">{features.sub_title}</p>
-            {markdownify(features.title, "h2", "mt-4 section-title")}
-            {markdownify(features.description, "p", "mt-10")}
+            <p className="uppercase">{data.page_d_accueil.features.sub_title}</p>
+            {markdownify(data.page_d_accueil.features.title, "h2", "mt-4 section-title")}
+            <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
@@ -227,7 +238,7 @@ const Home = ({ banner, features, speciality }) => {
                 },
               }}
             >
-              {features.list.map((item, index) => (
+              {data.page_d_accueil.features.list.map((item, index) => (
                 <SwiperSlide key={"feature-" + index}>
                   <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
                     <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
@@ -253,40 +264,42 @@ const Home = ({ banner, features, speciality }) => {
             <div className="animate lg:col-6 lg:order-2">
               <ImageFallback
                 className="mx-auto"
-                src={speciality.primary.image}
+                src={data.page_d_accueil.speciality.primary.image}
                 width={575}
                 height={511}
                 alt="primary speciality"
               />
             </div>
             <div className="animate lg:col-5 lg:order-1">
-              <p>{speciality.primary.subtitle}</p>
+              <p>{data.page_d_accueil.speciality.primary.subtitle}</p>
               {markdownify(
-                speciality.primary.title,
+                data.page_d_accueil.speciality.primary.title,
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.primary.description, "p", "mt-10")}
+              <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.speciality.primary.description} /></div>
             </div>
           </div>
           <div className="row items-center">
             <div className="animate lg:col-6">
               <ImageFallback
                 className="mx-auto"
-                src={speciality.secondary.image}
+                src={data.page_d_accueil.speciality.secondary.image}
                 width={575}
                 height={511}
                 alt="secondary speciality"
               />
             </div>
             <div className="animate lg:col-5">
-              <p>{speciality.secondary.subtitle}</p>
+              <p>{data.page_d_accueil.speciality.secondary.subtitle}</p>
               {markdownify(
-                speciality.secondary.title,
+                data.page_d_accueil.speciality.secondary.title,
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.secondary.description, "p", "mt-10")}
+              <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.speciality.secondary.description} /></div>
+             
+              {/* {data.page_d_accueil.speciality.secondary.description} */}
             </div>
           </div>
         </div>
@@ -298,20 +311,18 @@ const Home = ({ banner, features, speciality }) => {
   );
 };
 
-export default Home;
 
 // for homepage data
 export const getStaticProps = async () => {
-  const homepage = await getListPage("content/_index.md");
-  const { frontmatter } = homepage;
-  const { banner, features, speciality } =
-    frontmatter;
+  const homepage = await client.queries.page_d_accueil({
+    relativePath: '_index.md'
+  })
 
   return {
     props: {
-      banner: banner,
-      features: features,
-      speciality: speciality,
+      data: homepage.data,
+      query: homepage.query,
+      variables: homepage.variables,
     },
   };
 };
