@@ -1,5 +1,6 @@
 import { defineConfig } from "tinacms";
 import { indexFields } from "./home";
+import { configsFields, menuFields, socialFields, themeFields } from "./confFile";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -45,11 +46,14 @@ export default defineConfig({
           ...indexFields(),
         ]
       },
-      /*{
+      {
         format: "json",
-        label: "Configuration",
+        label: "Configuration Meta",
         name: "configuration_general",
-        path: "config/",
+        path: "config",
+        match: {
+          include: "config",
+        },
         ui: {
           allowedActions: {
             create: false,
@@ -57,10 +61,64 @@ export default defineConfig({
           },
         },
         fields: [
-          //...configFields(),
+          ...configsFields(),
         ]
       },
       {
+        format: "json",
+        label: "Configuration Menu",
+        name: "configuration_menu",
+        path: "config",
+        match: {
+          include: "menu",
+        },
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        fields: [
+          ...menuFields(),
+        ]
+      },
+      {
+        format: "json",
+        label: "Configuration Réseaux Sociaux",
+        name: "configuration_social",
+        path: "config",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "social",
+        },
+        fields: [
+          ...socialFields(),
+        ]
+      },
+      {
+        format: "json",
+        label: "Configuration Thème",
+        name: "configuration_theme",
+        path: "config",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "theme",
+        },
+        fields: [
+          ...themeFields(),
+        ]
+      },
+      /*{
         format: "mdx",
         label: "Blog",
         name: "blog",

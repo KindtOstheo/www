@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useTina } from 'tinacms/dist/react'
+import { useTina, tinaField  } from 'tinacms/dist/react'
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { client } from "../tina/__generated__/client";
 
@@ -18,16 +18,12 @@ export default function Home(props) {
 
   const paginationRef = useRef(null);
   
-
   // Pass our data through the "useTina" hook to make it editable
   const { data } = useTina({
     query: props.query,
     variables: props.variables,
     data: props.data,
-  })
-
-  console.log(data)
-  
+  })  
 
   useEffect(() => {
     if (window && window.location.pathname.startsWith("/admin")) {
@@ -177,14 +173,13 @@ export default function Home(props) {
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
                   <div className="banner-content col-10 pt-20 pb-10 text-center" >
-                    {markdownify(
-                      data.page_d_accueil.banner.title,
-                      "h1",
-                      "mb-8 banner-title opacity-0"
-                    )}
-                    <div className="banner-btn opacity-0">
+                    <h1 className="mb-8 banner-title opacity-0" data-tina-field={tinaField(data.page_d_accueil.banner, 'title')}>
+                      {data.page_d_accueil.banner.title}
+                    </h1>
+                    <div className="banner-btn opacity-0" >
                       <Link className="btn btn-primary" 
-                      href={data.page_d_accueil.banner.link.href} > 
+                      href={data.page_d_accueil.banner.link.href} 
+                      data-tina-field={tinaField(data.page_d_accueil.banner, 'link')}> 
                         {data.page_d_accueil.banner.link.label}
                       </Link>
                     </div>
@@ -197,6 +192,7 @@ export default function Home(props) {
                       height={666}
                       priority={true}
                       alt=""
+                      data-tina-field={tinaField(data.page_d_accueil.banner, 'image')}
                     />
                   </div>
                 </div>
@@ -211,9 +207,9 @@ export default function Home(props) {
       <section className="section">
         <div className="container text-center">
           <div className="animate">
-            <p className="uppercase">{data.page_d_accueil.features.sub_title}</p>
-            {markdownify(data.page_d_accueil.features.title, "h2", "mt-4 section-title")}
-            <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
+            <p className="uppercase" data-tina-field={tinaField(data.page_d_accueil.features, 'sub_title')}>{data.page_d_accueil.features.sub_title}</p>
+            <h2 className="mt-4 section-title" data-tina-field={tinaField(data.page_d_accueil.features, 'title')}>{data.page_d_accueil.features.title}</h2>
+            <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.features, 'description')}> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
@@ -239,13 +235,13 @@ export default function Home(props) {
               }}
             >
               {data.page_d_accueil.features.list.map((item, index) => (
-                <SwiperSlide key={"feature-" + index}>
+                <SwiperSlide key={"feature-" + index} data-tina-field={tinaField(item)}>
                   <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
                     <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
-                      <FeatherIcon icon={item.icon} />
+                      <FeatherIcon data-tina-field={tinaField(item, 'icon')} icon={item.icon} />
                     </div>
-                    <h3 className="h4 mt-6 mb-5">{item.title}</h3>
-                    <p>{item.content}</p>
+                    <h3 className="h4 mt-6 mb-5" data-tina-field={tinaField(item, 'title')}>{item.title}</h3>
+                    <p data-tina-field={tinaField(item, 'content')}>{item.content}</p>
                   </div>
                 </SwiperSlide>
               ))}
@@ -260,7 +256,7 @@ export default function Home(props) {
       {/* Special Features */}
       <section className="section">
         <div className="container">
-          <div className="row items-center justify-center">
+          <div className="row items-center justify-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'primary')}>
             <div className="animate lg:col-6 lg:order-2">
               <ImageFallback
                 className="mx-auto"
@@ -268,19 +264,16 @@ export default function Home(props) {
                 width={575}
                 height={511}
                 alt="primary speciality"
+                data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'image')}
               />
             </div>
             <div className="animate lg:col-5 lg:order-1">
-              <p>{data.page_d_accueil.speciality.primary.subtitle}</p>
-              {markdownify(
-                data.page_d_accueil.speciality.primary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.speciality.primary.description} /></div>
+              <p data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'subtitle')}>{data.page_d_accueil.speciality.primary.subtitle}</p>
+              <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'title')}>{data.page_d_accueil.speciality.primary.title}</h2>
+              <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'description')}> <TinaMarkdown content={data.page_d_accueil.speciality.primary.description} /></div>
             </div>
           </div>
-          <div className="row items-center">
+          <div className="row items-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'secondary')}>
             <div className="animate lg:col-6">
               <ImageFallback
                 className="mx-auto"
@@ -288,18 +281,13 @@ export default function Home(props) {
                 width={575}
                 height={511}
                 alt="secondary speciality"
+                data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'image')}
               />
             </div>
             <div className="animate lg:col-5">
               <p>{data.page_d_accueil.speciality.secondary.subtitle}</p>
-              {markdownify(
-                data.page_d_accueil.speciality.secondary.title,
-                "h2",
-                "mt-4 section-title bar-left"
-              )}
-              <div className="mt-10"> <TinaMarkdown content={data.page_d_accueil.speciality.secondary.description} /></div>
-             
-              {/* {data.page_d_accueil.speciality.secondary.description} */}
+              <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'title')}>{data.page_d_accueil.speciality.secondary.title}</h2>
+              <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'description')}> <TinaMarkdown content={data.page_d_accueil.speciality.secondary.description} /></div>
             </div>
           </div>
         </div>
