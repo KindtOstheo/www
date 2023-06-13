@@ -2,7 +2,7 @@
   "site": {
     "title": "Kindt Ostéopathe",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.ico",
     "logo": "/images/logo.png",
     "logo_width": "60",
     "logo_height": "58",
@@ -10,7 +10,7 @@
   },
 
   "settings": {
-    "pagination": 3,
+    "pagination": 6,
     "summary_length": 200,
     "blog_folder": "posts"
   },
