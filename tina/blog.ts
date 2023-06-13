@@ -16,12 +16,6 @@ export function blogFields() {
             type: "object",
             name: "author",
             label: "Auteur",
-            ui: {
-                defaultItem:{
-                    name: "Dominique Kindt",
-                    avatar: "/images/author/default.jpg"
-                }    
-            },
             fields:[
                 {
                     type: "string",
