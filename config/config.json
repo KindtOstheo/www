@@ -8,38 +8,31 @@
     "logo_height": "58",
     "logo_text": "Kindt Ostéopathe"
   },
-
   "settings": {
     "pagination": 6,
     "summary_length": 200,
     "blog_folder": "posts"
   },
-
   "params": {
     "tag_manager_id": "",
-    "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "copyright": "[Themefisher](https:www.themefisher.com) & Luc Van De Velde"
+    "footer_content": "Description",
+    "copyright": "© 2023 Kindt Ostéopathe - All Rights Reserved."
   },
-
   "contact_info": {
     "phone": "04 94 68 59 20",
     "email": "dkindt83@gmail.com",
     "location": "248 Chemin de Saint-Jaume, 83300 Draguignan"
   },
-
   "nav_button": {
     "enable": false,
     "label": "Download Now",
     "link": "https://themefisher.com/products/andromeda-light-nextjs"
   },
-
   "metadata": {
-    "meta_author": "Luc Van De Velde & Dominique Kindt",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Kindt Ostéopathe blog"
+    "meta_author": "Dominique Kindt",
+    "meta_image": "/images/logo.png",
+    "meta_description": "Site internet pour Dominique Kindt. Ostéopathe spécialisé dans le domaine du crane."
   },
-
   "call_to_action": {
     "enable": false,
     "title": "Get Andromeda Now",
@@ -49,7 +42,6 @@
       "link": "https://themefisher.com/products/andromeda-light-nextjs"
     }
   },
-
   "disqus": {
     "enable": false,
     "shortname": "themefisher-template",

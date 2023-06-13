@@ -12,6 +12,11 @@ export function configsFields() {
                     label: "Titre du site",
                 },
                 {
+                    type: "string",
+                    name: "base_url",
+                    label: "URL de base du site",
+                },
+                {
                     type: "image",
                     name: "favicon",
                     label: "Favicon du site",
@@ -20,6 +25,22 @@ export function configsFields() {
                     type: "image",
                     name: "logo",
                     label: "Logo du site",
+                },
+                {
+                    type: "string",
+                    name: "logo_width",
+                    label: "Largeur en px du logo",
+                    ui:{
+                        component:"number"
+                    }
+                },
+                {
+                    type: "string",
+                    name: "logo_height",
+                    label: "Hauteur en px du logo",
+                    ui:{
+                        component:"number"
+                    }
                 },
                 {
                     type: "string",
@@ -33,6 +54,11 @@ export function configsFields() {
             name: "params",
             label: "Paramètre footer",
             fields: [
+                {
+                    type: "string",
+                    name: "tag_manager_id",
+                    label: "Google Tag Manager",
+                },
                 {
                     type: "string",
                     name: "footer_content",
@@ -64,6 +90,28 @@ export function configsFields() {
                     type: "string",
                     name: "location",
                     label: "Adresse",
+                },
+            ],
+        },
+        {
+            type: "object",
+            name: "metadata",
+            label: "Référencement",
+            fields: [
+                {
+                    type: "string",
+                    name: "meta_author",
+                    label: "Auteur SEO",
+                },
+                {
+                    type: "image",
+                    name: "meta_image",
+                    label: "Image SEO",
+                },
+                {
+                    type: "string",
+                    name: "meta_description",
+                    label: "Description SEO",
                 },
             ],
         },

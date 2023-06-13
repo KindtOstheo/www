@@ -1,6 +1,6 @@
 ---
-title: Terms & condition
-description: "this is meta description"
+title: Conditions générales d'utilisation
+description: this is meta description
 draft: false
 ---
 
@@ -31,10 +31,10 @@ If you enter into this agreement on behalf of a company, you hereby agree that t
 
 ###### You must not
 
-- Enhance or improve User experience, our Site, or our Service.
-- Process transactions.
-- Send emails about our Site or respond to inquiries.
-- As this Privacy Policy and our Terms of Service.
+* Enhance or improve User experience, our Site, or our Service.
+* Process transactions.
+* Send emails about our Site or respond to inquiries.
+* As this Privacy Policy and our Terms of Service.
 
 ##### 5. Intellectual Property Rights
 

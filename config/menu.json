@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Accueil",
       "url": "/"
     },
     {
@@ -15,7 +15,7 @@
       "url": "/posts"
     },
     {
-      "name": "Terms & Conditions",
+      "name": "Nos conditions générales",
       "url": "/terms-policy"
     }
   ]

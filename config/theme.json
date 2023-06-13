@@ -5,9 +5,9 @@
         "primary": "#8F6D5D",
         "body": "#D9D9D9",
         "header": "#D9D9D9",
-        "border": "#000000",
-        "border_secondary": "#4A4A4A",
-        "theme_light": "#fffaf3",
+        "border": "#958F8F",
+        "border_secondary": "#877E7E",
+        "theme_light": "#C4C4C4",
         "theme_dark": "#1a202c"
       },
       "text_color": {
