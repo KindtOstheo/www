@@ -208,6 +208,14 @@ export function themeFields() {
                                 },
                                 {
                                     type: "string",
+                                    name: "header",
+                                    label: "Couleur d'arrière plans header",
+                                    ui:{
+                                        component: 'color'
+                                    }
+                                },
+                                {
+                                    type: "string",
                                     name: "border",
                                     label: "Couleur de bordure",
                                     ui:{
@@ -314,9 +322,12 @@ export function themeFields() {
                     label: "Taille de Police",
                     fields:[
                         {
-                            type: "number",
+                            type: "string",
                             name: "base",
                             label: "Taille de base", 
+                            ui:{
+                                component: 'number',
+                            }
                         },                        
                     ]
                 },
