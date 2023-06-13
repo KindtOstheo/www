@@ -1,7 +1,8 @@
 import { defineConfig } from "tinacms";
 import { indexFields } from "./home";
 import { configsFields, menuFields, socialFields, themeFields } from "./confFile";
-
+import { legalFields } from "./legal";
+import { blogFields } from "./blog";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
@@ -44,6 +45,37 @@ export default defineConfig({
         },
         fields: [
           ...indexFields(),
+        ]
+      },
+      {
+        format: "mdx",
+        label: "Blog",
+        name: "blog",
+        path: "content/posts/",
+        match: {
+          include: "**/*",
+          exclude:"_index.md",
+        },
+        fields: [
+          ...blogFields(),
+        ],
+      },
+      {
+        format: "md",
+        label: "Condition Générale",
+        name: "legal",
+        path: "content",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        match: {
+          include: "terms-policy",
+        },
+        fields: [
+          ...legalFields(),
         ]
       },
       {
@@ -118,19 +150,6 @@ export default defineConfig({
           ...themeFields(),
         ]
       },
-      /*{
-        format: "mdx",
-        label: "Blog",
-        name: "blog",
-        path: "content/posts/",
-        match: {*/
-          //include: "**/*",
-          /*exclude:"_index.md",
-        },
-        fields: [
-          //...blogFields(),
-        ],
-      },*/
     ],
   },
 });
