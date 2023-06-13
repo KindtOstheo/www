@@ -56,6 +56,14 @@ export default defineConfig({
           include: "**/*",
           exclude:"_index.md",
         },
+        defaultItem: () => {
+          return {
+            author:{
+              name: "Dominique Kindt",
+              avatar: "/images/author/default.jpg",
+            }
+          }
+        },
         fields: [
           ...blogFields(),
         ],

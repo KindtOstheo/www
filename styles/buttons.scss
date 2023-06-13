@@ -1,5 +1,8 @@
 .btn {
   @apply inline-block px-5 py-3 transition;
+  & > p  {
+    @apply p-0 m-0;
+  }
 }
 
 .btn-primary {
