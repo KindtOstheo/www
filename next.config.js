@@ -12,6 +12,9 @@ const nextConfig = {
       },
     ];
   },
+  images: {
+    domains: ['assets.tina.io'],
+  },
 
 };
 
