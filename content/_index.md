@@ -6,12 +6,16 @@ banner:
     label: ''
     href: ''
 features:
-  title: Elements To Get You Started
+  title: l'ostéopathie au service de la santé du corps
   sub_title: SPECIAL FEATURES
-  description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
+  description: >2
+     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus.
 
-    Werat viverra id et aliquet. vulputate egestas sollicitudin.
+    Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
+    l'autre fonctionnelle.
+
+
+    L'ostéopathie crânienne ne rentre pas dans ces deux approches.
   list:
     - title: Updated Security
       icon: lock
@@ -69,6 +73,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 
