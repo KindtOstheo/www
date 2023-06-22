@@ -1,15 +1,15 @@
 ---
 banner:
   title: 'L''équilibre : La Vie'
-  image: /images/banner-app.png
+  image: ''
   link:
-    label: Suivez Moi
-    href: 'https://www.facebook.com/OrlDentaireDraguignan'
+    label: ''
+    href: ''
 features:
   title: Elements To Get You Started
   sub_title: SPECIAL FEATURES
   description: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas 
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
 
     Werat viverra id et aliquet. vulputate egestas sollicitudin.
   list:
@@ -69,4 +69,5 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
