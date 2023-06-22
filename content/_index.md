@@ -1,7 +1,7 @@
 ---
 banner:
-  title: ''
-  image: ''
+  title: Un autre regard
+  image: /images/La vie est mouvement.png
   link:
     label: ''
     href: ''
@@ -69,6 +69,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 
