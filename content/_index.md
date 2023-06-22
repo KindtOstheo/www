@@ -22,11 +22,12 @@ features:
       content: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - title: Magnetic Turning
+    - title: Réflexion
       icon: wind
-      content: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      content: |-
+        Si tout le monde est contre toi,
+        c'est toi qui a raison,
+        car il est impossible que le monde soit peuplé de tant de sages.
     - title: Secured & up-to-date
       icon: shield
       content: >-
@@ -73,6 +74,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 
