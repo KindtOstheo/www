@@ -17,11 +17,13 @@ features:
 
     L'ostéopathie crânienne ne rentre pas dans ces deux approches.
   list:
-    - title: Updated Security
+    - title: Le crâne et l'ostéopathie
       icon: lock
       content: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+        Le crâne, appelé aussi "boîte crânienne" et un contenant, il contient
+        l'encéphale : le contenu.
+
+        Le contenu et le contenant ont une intimité de vie.
     - title: Réflexion
       icon: wind
       content: |-
@@ -74,6 +76,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 
