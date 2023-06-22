@@ -1,6 +1,6 @@
 ---
 banner:
-  title: 'L''équilibre : La Vie'
+  title: ''
   image: ''
   link:
     label: ''
@@ -69,5 +69,6 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
