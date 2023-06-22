@@ -23,7 +23,7 @@ features:
         Le crâne, appelé aussi "boîte crânienne" et un contenant, il contient
         l'encéphale : le contenu.
 
-        Le contenu et le contenant ont une intimité de vie.
+        Le contenu et le contenant ont forcément une intimité de vie.
     - title: Réflexion
       icon: wind
       content: |-
@@ -52,15 +52,22 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   primary:
-    title: OSTÉOPATHIE ORL
-    subtitle: SPECIALITÉ 1
+    title: La Boîte Crânienne
+    subtitle: Première approche
     description: >
-      L’ostéopathie a d’excellents résultats dans les traitements ORL tels que
-      les vertiges, les acouphènes, l’otalgie ou pour la prévention d’otites,
-      etc. Un des motifs les plus fréquents est le vertige caractérisé par un
-      état similaire de l’ébriété avec des déséquilibres, des illusions de
-      mouvements le plus souvent liées à un problème de la fonction de
-      l’équilibre qui est assurée par l’oreille interne.
+      Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
+      doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3. 
+
+
+      Une des premières observations faite lors des autopsies, est que "la boîte
+      crânienne"  pouvait se désarticuler. En d'autres termes les os qui
+      constituent la boîte crânienne n'étaient pas soudés. Cette observation se
+      confirme évidemment aujourd'hui.
+
+
+      ## C'est une donnée essentielle pour les ostéopathes.  L'articulation des
+      os du crâne que l'on appelle suture crânienne, est une articulation, 
+      certes immobile, mais non soudée, libre.
     image: /images/osteo-orl.jpg
   secondary:
     title: OSTÉOPATHIE CRÂNIENNE
@@ -76,6 +83,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 
