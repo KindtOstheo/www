@@ -376,7 +376,13 @@ export function themeFields() {
                             ui:{
                                 component: 'number',
                             }
-                        },                        
+                        },
+                        {
+                            type: "number",
+                            name: "scale",
+                            label: "Echelle de taille ",
+                            description: "Par quels nombres on agrandit la taille de police de base pour un titre, ex: taille de base égale 16px, échelle égale 1.25 le plus petit titre h6 sera à la taille 16x1.25=20px et le titre un peu plus grand sera à la taille de h6 x échelle donc 20x1.25=25px et ainsi de suite. ", 
+                        },                                
                     ]
                 },
 

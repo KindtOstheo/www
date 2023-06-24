@@ -21,6 +21,33 @@ export function indexFields() {
                 name: "title",
                 label: "Titre",
             },
+            // {
+            //     label: "Taille Titre",
+            //     name: "f_title",
+            //     type: "string",
+            //     options: [{
+            //       value: "text-sm",
+            //       label: "S"
+            //     }, {
+            //       value: "text-base",
+            //       label: "M"
+            //     }, {
+            //       value: "text-lg",
+            //       label: "L"
+            //     }, {
+            //       value: "text-xl",
+            //       label: "XL"
+            //     }, {
+            //       value: "text-2xl",
+            //       label: "2XL"
+            //     }, {
+            //       value: "text-3xl",
+            //       label: "3XL"
+            //     }, {
+            //       value: "text-4xl",
+            //       label: "4XL"
+            //     }]
+            // }, 
             {
                 type: "boolean",
                 name: "b_image",

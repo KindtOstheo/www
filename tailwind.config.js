@@ -1,7 +1,7 @@
 const theme = require("./config/theme.json");
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
-let font_scale = Number(theme.fonts.font_size.scale);
+let font_scale = theme.fonts.font_size.scale;
 let h6 = font_base / font_base;
 let h5 = h6 * font_scale;
 let h4 = h5 * font_scale;
@@ -65,6 +65,12 @@ module.exports = {
         h4: h4 + "rem",
         h5: h5 + "rem",
         h6: h6 + "rem",
+        // sm: '0.8rem',
+        // xl: '1.25rem',
+        // '2xl': '1.563rem',
+        // '3xl': '1.953rem',
+        // '4xl': '2.441rem',
+        // '5xl': '3.052rem',
       },
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],

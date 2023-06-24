@@ -3,6 +3,7 @@ banner:
   b_svg: true
   b_title: true
   title: Un autre regard
+  f_title: text-lg
   b_image: true
   image: /images/La vie est mouvement.png
   b_link: false
@@ -90,6 +91,8 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
+
 
 
 

@@ -25,7 +25,8 @@
       "secondary_type": ""
     },
     "font_size": {
-      "base": "16"
+      "base": "16",
+      "scale": 1.25
     }
   }
 }

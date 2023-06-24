@@ -179,7 +179,7 @@ export default function Home(props) {
                   { (data.page_d_accueil.banner.b_title || data.page_d_accueil.banner.b_link) &&
                     <div className="banner-content col-10 pt-10 pb-10 text-center" >
                       { data.page_d_accueil.banner.b_title && 
-                        <h1 className="mb-8 banner-title opacity-0" data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
+                        <h1 className={`mb-8 banner-title opacity-0 `} data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
                           {data.page_d_accueil.banner.title}
                         </h1>
                       }
