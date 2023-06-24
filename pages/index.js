@@ -69,8 +69,9 @@ export default function Home(props) {
           scrub: true,
         },
       });
-
+    if (data.page_d_accueil.banner.b_svg){
       const position = (banner.offsetHeight - bannerBg.offsetHeight) * 0.4;
+      
       parallaxTl
         .fromTo(
           bannerBg,
@@ -101,6 +102,7 @@ export default function Home(props) {
           },
           "<"
         );
+    }
     });
 
     return () => ctx.revert();
@@ -112,89 +114,99 @@ export default function Home(props) {
       <section className="section banner py-0">
         <div className="container-xl">
           <div className="relative">
-            <div className="bg-theme banner-bg col-12 absolute top-0 left-0">
-              <Circle
-                className="circle left-[10%] top-12"
-                width={32}
-                height={32}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[2.5%] top-[29%]"
-                width={85}
-                height={85}
-              />
-              <Circle
-                className="circle left-[22%] bottom-[48%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle left-[15%] bottom-[37%]"
-                width={47}
-                height={47}
-                fill={false}
-              />
-              <Circle
-                className="circle left-[6%] bottom-[13%]"
-                width={62}
-                height={62}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[12%] top-[15%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[2%] top-[30%]"
-                width={73}
-                height={73}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[19%] top-[48%]"
-                width={37}
-                height={37}
-                fill={false}
-              />
-              <Circle
-                className="circle right-[33%] top-[54%]"
-                width={20}
-                height={20}
-              />
-              <Circle
-                className="circle right-[3%] bottom-[20%]"
-                width={65}
-                height={65}
-              />
-            </div>
+            { data.page_d_accueil.banner.b_svg &&
+              <div className="bg-theme banner-bg col-12 absolute top-0 left-0">
+                <Circle
+                  className="circle left-[10%] top-12"
+                  width={32}
+                  height={32}
+                  fill={false}
+                />
+                <Circle
+                  className="circle left-[2.5%] top-[29%]"
+                  width={85}
+                  height={85}
+                />
+                <Circle
+                  className="circle left-[22%] bottom-[48%]"
+                  width={20}
+                  height={20}
+                />
+                <Circle
+                  className="circle left-[15%] bottom-[37%]"
+                  width={47}
+                  height={47}
+                  fill={false}
+                />
+                <Circle
+                  className="circle left-[6%] bottom-[13%]"
+                  width={62}
+                  height={62}
+                  fill={false}
+                />
+                <Circle
+                  className="circle right-[12%] top-[15%]"
+                  width={20}
+                  height={20}
+                />
+                <Circle
+                  className="circle right-[2%] top-[30%]"
+                  width={73}
+                  height={73}
+                  fill={false}
+                />
+                <Circle
+                  className="circle right-[19%] top-[48%]"
+                  width={37}
+                  height={37}
+                  fill={false}
+                />
+                <Circle
+                  className="circle right-[33%] top-[54%]"
+                  width={20}
+                  height={20}
+                />
+                <Circle
+                  className="circle right-[3%] bottom-[20%]"
+                  width={65}
+                  height={65}
+                />
+              </div>
+            }
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
-                <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pt-20 pb-10 text-center" >
-                    <h1 className="mb-8 banner-title opacity-0" data-tina-field={tinaField(data.page_d_accueil.banner, 'title')}>
-                      {data.page_d_accueil.banner.title}
-                    </h1>
-                    <div className="banner-btn opacity-0" >
-                      <Link className="btn btn-primary" 
-                      href={data.page_d_accueil.banner.link.href} 
-                      data-tina-field={tinaField(data.page_d_accueil.banner, 'link')}> 
-                        {data.page_d_accueil.banner.link.label}
-                      </Link>
+                <div className="row relative justify-center pb-10 pt-10">
+                  { (data.page_d_accueil.banner.b_title || data.page_d_accueil.banner.b_link) &&
+                    <div className="banner-content col-10 pt-10 pb-10 text-center" >
+                      { data.page_d_accueil.banner.b_title && 
+                        <h1 className="mb-8 banner-title opacity-0" data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
+                          {data.page_d_accueil.banner.title}
+                        </h1>
+                      }
+                      { data.page_d_accueil.banner.b_link && 
+                        <div className="banner-btn opacity-0" >
+                          <Link className="btn btn-primary" 
+                          href={data.page_d_accueil.banner.link.href} 
+                          data-tina-field={tinaField(data.page_d_accueil.banner, 'link')}> 
+                            {data.page_d_accueil.banner.link.label}
+                          </Link>
+                        </div>
+                      }
                     </div>
-                  </div>
-                  <div className="col-10">
-                    <ImageFallback
-                      className="banner-img opacity-0"
-                      src={data.page_d_accueil.banner.image}
-                      width={1170}
-                      height={666}
-                      priority={true}
-                      alt=""
-                      data-tina-field={tinaField(data.page_d_accueil.banner, 'image')}
-                    />
-                  </div>
+                  }
+                  { data.page_d_accueil.banner.b_image &&
+                    <div className="col-10">
+                      <ImageFallback
+                        className="banner-img opacity-0"
+                        src={data.page_d_accueil.banner.image}
+                        width={1170}
+                        height={666}
+                        priority={true}
+                        alt=""
+                        data-tina-field={tinaField(data.page_d_accueil.banner, 'image')}
+                      />
+                    </div>
+                  }
                 </div>
               </div>
             </div>

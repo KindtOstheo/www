@@ -147,7 +147,7 @@
 //banner
 .banner {
   .bg-theme {
-    @apply h-[calc(50%_+_160px)];
+    @apply h-[calc(100%_+_60px)];
 
     &::before {
       @apply h-[95%] bg-[0_50px] scale-100 bg-theme-light;

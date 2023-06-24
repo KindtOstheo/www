@@ -1,15 +1,22 @@
 ---
 banner:
+  b_svg: true
+  b_title: true
   title: Un autre regard
+  b_image: true
   image: /images/La vie est mouvement.png
+  b_link: false
   link:
     label: ''
     href: ''
 features:
   title: l'ostéopathie au service de la santé du corps
   sub_title: SPECIAL FEATURES
-  description: >2
-     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus.
+  description: >
+    L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
+    Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
+    années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus.
+
 
     Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
     l'autre fonctionnelle.
@@ -56,7 +63,7 @@ speciality:
     subtitle: Première approche
     description: >
       Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
-      doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3. 
+      doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3.
 
 
       Une des premières observations faite lors des autopsies, est que "la boîte
@@ -83,6 +90,7 @@ speciality:
       faible et imperceptible pour des mains non entraînées.
     image: /images/features-02.png
 ---
+
 
 
 

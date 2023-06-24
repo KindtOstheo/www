@@ -7,14 +7,34 @@ export function indexFields() {
         label: "Baniere d'Accueil",
         fields: [
             {
+                type: "boolean",
+                name: "b_svg",
+                label: "Activer image d'arrière-plan",
+            },
+            {
+                type: "boolean",
+                name: "b_title",
+                label: "Activer titre",
+            },
+            {
                 type: "string",
                 name: "title",
                 label: "Titre",
             },
             {
+                type: "boolean",
+                name: "b_image",
+                label: "Activer image",
+            },
+            {
                 type: "image",
                 name: "image",
                 label: "Image",
+            },
+            {
+                type: "boolean",
+                name: "b_link",
+                label: "Activer Boutton",
             },
             {
                 type: "object",
