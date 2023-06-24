@@ -64,8 +64,8 @@ features:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
-  primary:
-    title: La Boîte Crânienne
+  list:
+  - title: La Boîte Crânienne
     subtitle: Première approche
     description: >
       Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
@@ -82,8 +82,7 @@ speciality:
       os du crâne que l'on appelle suture crânienne, est une articulation, 
       certes immobile, mais non soudée, libre.
     image: /images/1 Crâne.png
-  secondary:
-    title: OSTÉOPATHIE CRÂNIENNE
+  - title: OSTÉOPATHIE CRÂNIENNE
     subtitle: SPECIALITÉ 2
     description: >
       L’ostéopathie crânienne est une pratique qui vise à diagnostiquer et à

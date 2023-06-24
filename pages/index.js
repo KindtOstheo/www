@@ -278,24 +278,27 @@ export default function Home(props) {
       {/* Special Features */}
       <section className="section">
         <div className="container">
-          <div className="row items-center justify-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'primary')}>
-            <div className="animate lg:col-6 lg:order-2">
-              <ImageFallback
-                className="mx-auto"
-                src={data.page_d_accueil.speciality.primary.image}
-                width={575}
-                height={511}
-                alt="primary speciality"
-                data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'image')}
-              />
+          {data.page_d_accueil.speciality.list.map((item, index) => (
+            <div className="row items-center justify-center odd:flex-row-reverse" key={"speciality-" + index} data-tina-field={tinaField(item)}>
+              <div className="animate lg:col-6 lg:order-1">
+                <ImageFallback
+                  className="mx-auto"
+                  src={item.image? item.image : ""}
+                  width={575}
+                  height={511}
+                  alt={"speciality-" + index}
+                  data-tina-field={tinaField(item, 'image')}
+                />
+              </div>
+              <div className="animate lg:col-5 lg:order-2">
+                <p data-tina-field={tinaField(item, 'subtitle')}>{item.subtitle}</p>
+                <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(item, 'title')}>{item.title}</h2>
+                <div className="mt-10" data-tina-field={tinaField(item, 'description')}> <TinaMarkdown content={item.description} /></div>
+              </div>
             </div>
-            <div className="animate lg:col-5 lg:order-1">
-              <p data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'subtitle')}>{data.page_d_accueil.speciality.primary.subtitle}</p>
-              <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'title')}>{data.page_d_accueil.speciality.primary.title}</h2>
-              <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.speciality.primary, 'description')}> <TinaMarkdown content={data.page_d_accueil.speciality.primary.description} /></div>
-            </div>
-          </div>
-          <div className="row items-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'secondary')}>
+          ))}
+          
+          {/* <div className="row items-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'secondary')}>
             <div className="animate lg:col-6">
               <ImageFallback
                 className="mx-auto"
@@ -311,7 +314,7 @@ export default function Home(props) {
               <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'title')}>{data.page_d_accueil.speciality.secondary.title}</h2>
               <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'description')}> <TinaMarkdown content={data.page_d_accueil.speciality.secondary.description} /></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

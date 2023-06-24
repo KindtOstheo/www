@@ -154,8 +154,15 @@ export function indexFields() {
         fields: [
             {
                 type: "object",
-                name: "primary",
-                label: "Specialité 1",
+                name: "list",
+                label: "Liste",
+                list: true,
+                ui: {
+                    itemProps: (item) => {
+                    // Field values are accessed by title?.<Field name>
+                        return { label: item?.title };
+                    },
+                },
                 fields: [
                     {
                         type: "string",
@@ -179,33 +186,6 @@ export function indexFields() {
                     },
                 ]
             },
-            {
-                type: "object",
-                name: "secondary",
-                label: "Specialité 2",
-                fields: [
-                    {
-                        type: "string",
-                        name: "title",
-                        label: "Titre",
-                    },
-                    {
-                        type: "string",
-                        name: "subtitle",
-                        label: "Sous Titre",
-                    },
-                    {
-                        type: "rich-text",
-                        name: "description",
-                        label: "Description",
-                    },
-                    {
-                        type: "image",
-                        name: "image",
-                        label: "Image",
-                    },
-                ]
-            }
         ],
     },
     
