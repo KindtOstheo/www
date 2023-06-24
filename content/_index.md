@@ -26,6 +26,7 @@ features:
     L'ostéopathie crânienne ne rentre pas dans ces deux approches.
   list:
     - title: Le crâne et l'ostéopathie
+      b_icon: true
       icon: lock
       content: >-
         Le crâne, appelé aussi "boîte crânienne" et un contenant, il contient
@@ -33,6 +34,7 @@ features:
 
         Le contenu et le contenant ont forcément une intimité de vie.
     - title: Réflexion
+      b_icon: true
       icon: wind
       content: |-
         Si tout le monde est contre toi,
@@ -44,16 +46,19 @@ features:
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Instant Link Sharing
+      b_icon: true
       icon: link
       content: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Updated Security
+      b_icon: true
       icon: lock
       content: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Magnetic Turning
+      b_icon: true
       icon: wind
       content: >-
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id

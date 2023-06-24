@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { useTina, tinaField  } from 'tinacms/dist/react'
 import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { client } from "../tina/__generated__/client";
-
+import Image from 'next/image'
 
 export default function Home(props) {
 
@@ -250,7 +250,17 @@ export default function Home(props) {
                 <SwiperSlide key={"feature-" + index} data-tina-field={tinaField(item)}>
                   <div className="feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300 hover:border-[#4a4a4a] hover:shadow-none">
                     <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#4a4a4a] text-primary">
-                      <FeatherIcon data-tina-field={tinaField(item, 'icon')} icon={item.icon} />
+                      {item.b_icon ?
+                        <FeatherIcon data-tina-field={tinaField(item, 'icon')} icon={item.icon} />
+                        : 
+                        <Image
+                          src={item.image? item.image : ""}
+                          width={80}
+                          height={80}
+                          alt={item.title}
+                          data-tina-field={tinaField(item, 'image')}
+                        />
+                      }
                     </div>
                     <h3 className="h4 mt-6 mb-5" data-tina-field={tinaField(item, 'title')}>{item.title}</h3>
                     <p data-tina-field={tinaField(item, 'content')}>{item.content}</p>

@@ -120,10 +120,20 @@ export function indexFields() {
                         label: "Titre",
                     },
                     {
+                        type: "boolean",
+                        name: "b_icon",
+                        label: "Activer pour icon/ desactiver pour image",
+                    },
+                    {
                         type: "string",
                         name: "icon",
                         label: "Icon https://feathericons.com/",
                         description: "Pour choisir les icones aller sur https://feathericons.com/ et recuperer le titre de l'icone",
+                    },
+                    {
+                        type: "image",
+                        name: "image",
+                        label: "Image 80x80",
                     },
                     {
                         type: "string",
