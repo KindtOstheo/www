@@ -77,7 +77,7 @@ speciality:
         se confirme évidemment aujourd'hui.
 
 
-        ## C'est une donnée essentielle pour les ostéopathes.  L'articulation
+        ##### C'est une donnée essentielle pour les ostéopathes.  L'articulation
         des os du crâne que l'on appelle suture crânienne, est une
         articulation,  certes immobile, mais non soudée, libre.
       image: /images/1 Crâne.png
@@ -94,6 +94,7 @@ speciality:
         donc très faible et imperceptible pour des mains non entraînées.
       image: /images/features-02.png
 ---
+
 
 
 
