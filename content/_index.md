@@ -77,9 +77,9 @@ speciality:
         se confirme évidemment aujourd'hui.
 
 
-        ##### C'est une donnée essentielle pour les ostéopathes.  L'articulation
-        des os du crâne que l'on appelle suture crânienne, est une
-        articulation,  certes immobile, mais non soudée, libre.
+        ##### C'est une donnée essentielle pour les ostéopathes.  Les
+        articulations des os du crâne que l'on appelle sutures crâniennes, sont
+        certes des articulations immobiles, mais non soudées, libres.
       image: /images/1 Crâne.png
     - title: OSTÉOPATHIE CRÂNIENNE
       subtitle: SPECIALITÉ 2
@@ -94,6 +94,7 @@ speciality:
         donc très faible et imperceptible pour des mains non entraînées.
       image: /images/features-02.png
 ---
+
 
 
 
