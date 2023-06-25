@@ -28,10 +28,9 @@ features:
     - title: Le crâne et l'ostéopathie
       b_icon: true
       icon: lock
-      content: >-
-        Le crâne, appelé aussi "boîte crânienne" et un contenant, il contient
-        l'encéphale : le contenu.
-
+      content: |-
+        Le crâne, appelé aussi "boîte crânienne" est un contenant.
+        Le contenant contient le contenu : l'encéphale.
         Le contenu et le contenant ont forcément une intimité de vie.
     - title: Réflexion
       b_icon: true
@@ -95,6 +94,7 @@ speciality:
         donc très faible et imperceptible pour des mains non entraînées.
       image: /images/features-02.png
 ---
+
 
 
 
