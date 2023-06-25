@@ -15,7 +15,8 @@ features:
   description: >
     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
     Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
-    années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus.
+    années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus;
+    comme la sphère ORL et Dentaire.
 
 
     Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
@@ -94,6 +95,7 @@ speciality:
         donc très faible et imperceptible pour des mains non entraînées.
       image: /images/features-02.png
 ---
+
 
 
 
