@@ -4,7 +4,7 @@ banner:
   b_title: true
   title: La vie est mouvement
   b_image: true
-  image: /images/La vie est mouvement.png
+  image: /images/Couverture M.Faciale.png
   b_link: false
   link:
     label: ''
@@ -94,6 +94,7 @@ speciality:
         donc très faible et imperceptible pour des mains non entraînées.
       image: /images/features-02.png
 ---
+
 
 
 
