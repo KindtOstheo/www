@@ -1,9 +1,8 @@
 ---
 banner:
-  b_svg: true
+  b_svg: false
   b_title: true
-  title: Un autre regard
-  f_title: text-lg
+  title: La vie est mouvement
   b_image: true
   image: /images/La vie est mouvement.png
   b_link: false
@@ -65,36 +64,37 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
-  - title: La Boîte Crânienne
-    subtitle: Première approche
-    description: >
-      Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
-      doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3.
+    - title: La Boîte Crânienne
+      subtitle: Première approche
+      description: >
+        Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
+        doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3.
 
 
-      Une des premières observations faite lors des autopsies, est que "la boîte
-      crânienne"  pouvait se désarticuler. En d'autres termes les os qui
-      constituent la boîte crânienne n'étaient pas soudés. Cette observation se
-      confirme évidemment aujourd'hui.
+        Une des premières observations faite lors des autopsies, est que "la
+        boîte crânienne"  pouvait se désarticuler. En d'autres termes les os qui
+        constituent la boîte crânienne n'étaient pas soudés. Cette observation
+        se confirme évidemment aujourd'hui.
 
 
-      ## C'est une donnée essentielle pour les ostéopathes.  L'articulation des
-      os du crâne que l'on appelle suture crânienne, est une articulation, 
-      certes immobile, mais non soudée, libre.
-    image: /images/1 Crâne.png
-  - title: OSTÉOPATHIE CRÂNIENNE
-    subtitle: SPECIALITÉ 2
-    description: >
-      L’ostéopathie crânienne est une pratique qui vise à diagnostiquer et à
-      traiter la mobilité au niveau de la boite crânienne. Le mouvement présent
-      est appelé mécanisme respiratoire primaire (ou MRP), car c’est un
-      mouvement involontaire et rythmique, alternant des phases d’expansion et
-      de rétraction à l’image de la respiration pulmonaire. La recherche par
-      l’expérimentation instrumentale a permis de démontrer la présence d’un
-      mouvement d’une amplitude de 15 à 25 microns, cette mobilité est donc très
-      faible et imperceptible pour des mains non entraînées.
-    image: /images/features-02.png
+        ## C'est une donnée essentielle pour les ostéopathes.  L'articulation
+        des os du crâne que l'on appelle suture crânienne, est une
+        articulation,  certes immobile, mais non soudée, libre.
+      image: /images/1 Crâne.png
+    - title: OSTÉOPATHIE CRÂNIENNE
+      subtitle: SPECIALITÉ 2
+      description: >
+        L’ostéopathie crânienne est une pratique qui vise à diagnostiquer et à
+        traiter la mobilité au niveau de la boite crânienne. Le mouvement
+        présent est appelé mécanisme respiratoire primaire (ou MRP), car c’est
+        un mouvement involontaire et rythmique, alternant des phases d’expansion
+        et de rétraction à l’image de la respiration pulmonaire. La recherche
+        par l’expérimentation instrumentale a permis de démontrer la présence
+        d’un mouvement d’une amplitude de 15 à 25 microns, cette mobilité est
+        donc très faible et imperceptible pour des mains non entraînées.
+      image: /images/features-02.png
 ---
+
 
 
 
