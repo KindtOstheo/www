@@ -84,25 +84,28 @@ speciality:
     - title: La suture crânienne
       subtitle: '   Contiguïté n''égale pas continuité'
       description: >
-        les os du crâne s'articulent entre eux. Cette articulation s'appelle
-        suture. Elle est définit par les anatomistes comme une articulation
-        immobile; pourtant cette immobilité ne signe pas une fusion osseuse puis
-        qu'un crâne peut-être désarticulé, lors d'une autopsie.
+        l'articulation qui relie chaque os du crâne s'appelle suture. Elle est
+        définit par les anatomistes comme une articulation immobile; pourtant
+        cette immobilité ne signe pas une fusion osseuse, puisqu'un crâne
+        peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.
 
 
         L'étude histologique d'une suture crânienne montre deux éléments
-        contraires :
+        apparemment contradictoires :
 
 
-        * Il y a une
+        * Une
         [contiguïté](https://www.google.com/search?q=contigu\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\&ei=f0SZZJPVE-zFkdUP5euoyAk\&oq=contigu\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\&sclient=gws-wiz-serp
         "contigu") osseuse, les os se touchent sans être soudés, et
 
-        * Il y a une continuité membraneuse, par la dure-mère qui tapisse les os
-        crânien. Ce lien est très puissant; la dure-mère appartient aux
-        membranes méningées et elle n'est pas élastique.
+        * Une continuité membraneuse, par la dure-mère qui tapisse et relie donc
+        les os crânien. Ce lien est très puissant.  La dure-mère qui n'est pas
+        élastique appartient aux membranes méningées, membranes nerveuses
+        extrêmement sensibles qui enveloppent l'ensemble du système nerveux
+        central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
