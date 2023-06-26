@@ -100,9 +100,10 @@ speciality:
 
         * Il y a une continuité membraneuse, par la dure-mère qui tapisse les os
         crânien. Ce lien est très puissant; la dure-mère appartient aux
-        membranes méningées et il n'est pas élastique.
+        membranes méningées et elle n'est pas élastique.
       image: /images/Train.png
 ---
+
 
 
 
