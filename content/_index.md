@@ -81,19 +81,25 @@ speciality:
         articulations des os du crâne que l'on appelle sutures crâniennes, sont
         certes des articulations immobiles, mais non soudées, libres.
       image: /images/1 Crâne.png
-    - title: OSTÉOPATHIE CRÂNIENNE
-      subtitle: SPECIALITÉ 2
+    - title: La suture crânienne
+      subtitle: '   Contiguïté n''égale pas continuité'
       description: >
-        L’ostéopathie crânienne est une pratique qui vise à diagnostiquer et à
-        traiter la mobilité au niveau de la boite crânienne. Le mouvement
-        présent est appelé mécanisme respiratoire primaire (ou MRP), car c’est
-        un mouvement involontaire et rythmique, alternant des phases d’expansion
-        et de rétraction à l’image de la respiration pulmonaire. La recherche
-        par l’expérimentation instrumentale a permis de démontrer la présence
-        d’un mouvement d’une amplitude de 15 à 25 microns, cette mobilité est
-        donc très faible et imperceptible pour des mains non entraînées.
+        les os du crâne s'articulent entre eux. Cette articulation s'appelle
+        suture. Elle est définit par les anatomistes comme une articulation
+        immobile; pourtant cette immobilité ne signe pas une fusion osseuse puis
+        qu'un crâne peut-être désarticulé, lors d'une autopsie.
+
+
+        L'étude histologique d'une suture crânienne montre deux éléments
+        contraires :
+
+
+        * Il y a une
+        [contiguïté](https://www.google.com/search?q=contigu\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\&ei=f0SZZJPVE-zFkdUP5euoyAk\&oq=contigu\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\&sclient=gws-wiz-serp
+        "contigu") osseuse
       image: /images/features-02.png
 ---
+
 
 
 
