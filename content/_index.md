@@ -85,7 +85,7 @@ speciality:
       subtitle: '   Contiguïté n''égale pas continuité'
       description: >
         l'articulation qui relie chaque os du crâne s'appelle suture. Elle est
-        définit par les anatomistes comme une articulation immobile; pourtant
+        définie par les anatomistes comme une articulation immobile; pourtant
         cette immobilité ne signe pas une fusion osseuse, puisqu'un crâne
         peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.
 
@@ -105,6 +105,7 @@ speciality:
         système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
