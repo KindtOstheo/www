@@ -100,11 +100,12 @@ speciality:
 
         * Une continuité membraneuse, par la dure-mère qui tapisse et relie donc
         les os crânien. Ce lien est très puissant.  La dure-mère qui n'est pas
-        élastique appartient aux membranes méningées, membranes nerveuses
-        extrêmement sensibles qui enveloppent l'ensemble du système nerveux
-        central et médullaire.
+        élastique, mais très résistante, appartient aux membranes méningées,
+        membranes nerveuses extrêmement sensibles qui enveloppent l'ensemble du
+        système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
