@@ -96,9 +96,14 @@ speciality:
 
         * Il y a une
         [contiguïté](https://www.google.com/search?q=contigu\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\&ei=f0SZZJPVE-zFkdUP5euoyAk\&oq=contigu\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\&sclient=gws-wiz-serp
-        "contigu") osseuse
+        "contigu") osseuse, les os se touchent sans être soudés, et
+
+        * Il y a une continuité membraneuse, par la dure-mère qui tapisse les os
+        crânien. Ce lien est très puissant; la dure-mère appartient aux
+        membranes méningées et il n'est pas élastique.
       image: /images/features-02.png
 ---
+
 
 
 
