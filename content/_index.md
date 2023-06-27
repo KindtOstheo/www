@@ -83,7 +83,7 @@ speciality:
         articulations immobiles, mais non soudées, libres.
       image: /images/1 Crâne.png
     - title: La suture crânienne
-      subtitle: '         Contiguïté n''égale pas continuité'
+      subtitle: Contiguïté n'égale pas continuité
       description: >
         l'articulation qui relie chaque os du crâne s'appelle suture. Elle est
         définie par les anatomistes comme une articulation immobile; pourtant
@@ -109,6 +109,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
