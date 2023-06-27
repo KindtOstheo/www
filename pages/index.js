@@ -24,7 +24,9 @@ export default function Home(props) {
     variables: props.variables,
     data: props.data,
   })  
-
+  const Styles = {
+    fontSize: data.page_d_accueil.banner.f_title ? data.page_d_accueil.banner.f_title : 16
+  };
   useEffect(() => {
     if (window && window.location.pathname.startsWith("/admin")) {
     } 
@@ -179,7 +181,7 @@ export default function Home(props) {
                   { (data.page_d_accueil.banner.b_title || data.page_d_accueil.banner.b_link) &&
                     <div className="banner-content col-10 pt-10 pb-10 text-center" >
                       { data.page_d_accueil.banner.b_title && 
-                        <h1 className={`mb-8 banner-title opacity-0 `} data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
+                        <h1 className={`mb-8 banner-title opacity-0`} style={Styles} data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
                           {data.page_d_accueil.banner.title}
                         </h1>
                       }
@@ -263,7 +265,7 @@ export default function Home(props) {
                       }
                     </div>
                     <h3 className="h4 mt-6 mb-5" data-tina-field={tinaField(item, 'title')}>{item.title}</h3>
-                    <p data-tina-field={tinaField(item, 'content')}>{item.content}</p>
+                    <div className="TinaMarkdown"data-tina-field={tinaField(item, 'content')}><TinaMarkdown content={item.content} /></div>
                   </div>
                 </SwiperSlide>
               ))}
@@ -293,7 +295,7 @@ export default function Home(props) {
               <div className="animate lg:col-5 lg:order-2">
                 <p data-tina-field={tinaField(item, 'subtitle')}>{item.subtitle}</p>
                 <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(item, 'title')}>{item.title}</h2>
-                <div className="mt-10" data-tina-field={tinaField(item, 'description')}> <TinaMarkdown content={item.description} /></div>
+                <div className="mt-10 TinaMarkdown" data-tina-field={tinaField(item, 'description')}> <TinaMarkdown content={item.description} /></div>
               </div>
             </div>
           ))}

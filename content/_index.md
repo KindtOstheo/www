@@ -3,6 +3,7 @@ banner:
   b_svg: false
   b_title: true
   title: La vie est mouvement
+  f_title: 60
   b_image: true
   image: /images/Couverture M.Faciale.png
   b_link: false
@@ -28,38 +29,38 @@ features:
     - title: Le crâne et l'ostéopathie
       b_icon: true
       icon: lock
-      content: |-
+      content: |
         Le crâne, appelé aussi "boîte crânienne" est un contenant.
         Le contenant contient le contenu : l'encéphale.
         Le contenu et le contenant ont forcément une intimité de vie.
     - title: Réflexion
       b_icon: true
       icon: wind
-      content: |-
+      content: |
         Si tout le monde est contre toi,
         c'est toi qui a raison,
         car il est impossible que le monde soit peuplé de tant de sages.
     - title: Secured & up-to-date
       icon: shield
-      content: >-
+      content: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Instant Link Sharing
       b_icon: true
       icon: link
-      content: >-
+      content: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Updated Security
       b_icon: true
       icon: lock
-      content: >-
+      content: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
     - title: Magnetic Turning
       b_icon: true
       icon: wind
-      content: >-
+      content: >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
@@ -105,6 +106,7 @@ speciality:
         système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 

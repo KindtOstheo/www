@@ -21,33 +21,18 @@ export function indexFields() {
                 name: "title",
                 label: "Titre",
             },
-            // {
-            //     label: "Taille Titre",
-            //     name: "f_title",
-            //     type: "string",
-            //     options: [{
-            //       value: "text-sm",
-            //       label: "S"
-            //     }, {
-            //       value: "text-base",
-            //       label: "M"
-            //     }, {
-            //       value: "text-lg",
-            //       label: "L"
-            //     }, {
-            //       value: "text-xl",
-            //       label: "XL"
-            //     }, {
-            //       value: "text-2xl",
-            //       label: "2XL"
-            //     }, {
-            //       value: "text-3xl",
-            //       label: "3XL"
-            //     }, {
-            //       value: "text-4xl",
-            //       label: "4XL"
-            //     }]
-            // }, 
+            {
+                label: "Taille Titre en px",
+                name: "f_title",
+                type: "number",
+                ui:{
+                    validate: (val)=>{
+                        if(val <= 0 ) {
+                            return 'Le nombre doit etre plus grand que 0'
+                        }
+                    }
+                }
+            }, 
             {
                 type: "boolean",
                 name: "b_image",
@@ -136,12 +121,9 @@ export function indexFields() {
                         label: "Image 80x80",
                     },
                     {
-                        type: "string",
+                        type: "rich-text",
                         name: "content",
                         label: "Description",
-                        ui: {
-                            component: "textarea",
-                        }
                     },
                 ]
             }
