@@ -78,9 +78,9 @@ speciality:
         se confirme évidemment aujourd'hui.
 
 
-        ##### C'est une donnée essentielle pour les ostéopathes.  Les
-        articulations des os du crâne que l'on appelle sutures crâniennes, sont
-        certes des articulations immobiles, mais non soudées, libres.
+        C'est une donnée essentielle pour les ostéopathes.  Les articulations
+        des os du crâne que l'on appelle sutures crâniennes, sont certes des
+        articulations immobiles, mais non soudées, libres.
       image: /images/1 Crâne.png
     - title: La suture crânienne
       subtitle: '   Contiguïté n''égale pas continuité'
@@ -109,6 +109,7 @@ speciality:
         central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
