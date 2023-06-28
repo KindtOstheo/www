@@ -94,21 +94,16 @@ speciality:
         L'étude histologique d'une suture crânienne montre deux éléments
         apparemment contradictoires :
 
+            1° Une **[contiguïté](https://www.google.com/search?q=contigu\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\&ei=f0SZZJPVE-zFkdUP5euoyAk\&oq=contigu\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\&sclient=gws-wiz-serp "contigu")** osseuse, les os se touchent sans être soudés.
 
-        * 1° Une
-        **[contiguïté](https://www.google.com/search?q=contigu\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\&ei=f0SZZJPVE-zFkdUP5euoyAk\&oq=contigu\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\&sclient=gws-wiz-serp
-        "contigu")** osseuse, les os se touchent sans être soudés.
-
-
-        2° Une **continuité **membraneuse, par la dure-mère qui tapisse et relie
-        donc les os crâniens.
-
+           2° Une **continuité **membraneuse, par la dure-mère qui tapisse et relie donc les os crâniens.
 
         La dure-mère n'est pas élastique, mais très résistante, elle appartient
         aux membranes méningées, membranes nerveuses extrêmement sensibles qui
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
