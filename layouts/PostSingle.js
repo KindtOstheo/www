@@ -1,4 +1,5 @@
 import config from "@config/config.json";
+import theme from "@config/theme.json"
 import Base from "@layouts/Baseof";
 import dateFormat from "@lib/utils/dateFormat";
 import readingTime from "@lib/utils/readingTime";
@@ -12,10 +13,11 @@ import ImageFallback from "./components/ImageFallback";
 import Post from "./partials/Post";
 
 const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
-  let { description, title, date, image, author } = frontmatter;
+  let { description, title, date, image, author, color } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const { disqus } = config;
+  const { colors } = theme;
 
   return (
     <Base title={title} description={description}>
@@ -35,7 +37,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                   />
                 )}
               </div>
-              <div className="lg:col-8">
+              <div className="lg:col-10">
                 {markdownify(title, "h1", "h2 mt-6")}
                 <div className="mt-6 flex items-center">
                   <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
@@ -53,8 +55,10 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                     </p>
                   </div>
                 </div>
-                <div className="content mt-16 mb-16 text-left">
-                  <MDXRemote {...mdxContent} components={shortcodes} />
+                <div style={{backgroundColor : color ? color : colors.default.theme_color.body}}>
+                  <div className="content mt-16 mb-16 mx-4 py-0.5 text-left" >
+                    <MDXRemote {...mdxContent} components={shortcodes} />
+                  </div>
                 </div>
               </div>
               {disqus.enable && (
