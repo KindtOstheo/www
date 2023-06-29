@@ -8,7 +8,7 @@ banner:
   image: /images/Couverture M.Faciale.png
   b_link: false
   link:
-    label: ''
+    label: ttttt
     href: ''
 features:
   title: l'ostéopathie au service de la santé du corps
@@ -32,9 +32,7 @@ features:
       image: /images/icône feuille (1).png
       content: |
         * Le crâne, appelé aussi "boîte crânienne" est un contenant.
-
         * Le **contenant** contient le contenu :l'encéphale.
-
         * Le **contenu** et le contenant ont forcément une intimité de vie.
     - title: Réflexion
       b_icon: true
@@ -119,6 +117,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
