@@ -31,8 +31,8 @@ features:
       icon: lock
       content: |
         Le crâne, appelé aussi "boîte crânienne" est un contenant.
-        Le contenant contient le contenu : l'encéphale.
-        Le contenu et le contenant ont forcément une intimité de vie.
+        Le **contenant** contient le contenu : l'encéphale.
+        Le **contenu** et le contenant ont forcément une intimité de vie.
     - title: Réflexion
       b_icon: true
       icon: wind
@@ -78,9 +78,12 @@ speciality:
         se confirme évidemment aujourd'hui.
 
 
-        C'est une donnée essentielle pour les ostéopathes. 
+        C'est une donnée essentielle pour les ostéopathes.
 
-         Les articulations des os du crâne que l'on appelle sutures crâniennes, sont certes des articulations immobiles, mais non soudées,** libres**.
+
+        Les articulations des os du crâne que l'on appelle sutures crâniennes,
+        sont certes des articulations immobiles, mais non soudées,\*\*
+        libres\*\*.
       image: /images/1 Crâne.png
     - title: La suture crânienne
       subtitle: Contiguïté n'égale pas continuité
@@ -113,6 +116,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
