@@ -33,6 +33,9 @@ export default function Home(props) {
       fontSize: data.page_d_accueil.features.f_title ? data.page_d_accueil.features.f_title : 16,
       textAlign: data.page_d_accueil.features.a_title ? data.page_d_accueil.features.a_title : "center"
     },
+    feature_desc : {
+      fontSize: data.page_d_accueil.features.f_description ? data.page_d_accueil.features.f_description : 16,
+    }
   };
   useEffect(() => {
     if (window && window.location.pathname.startsWith("/admin")) {

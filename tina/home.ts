@@ -130,6 +130,18 @@ export function indexFields() {
                 label: "Description",
             },
             {
+                label: "Taille Description en px",
+                name: "f_description",
+                type: "number",
+                ui:{
+                    validate: (val)=>{
+                        if(val <= 0 ) {
+                            return 'Le nombre doit etre plus grand que 0'
+                        }
+                    }
+                }
+            }, 
+            {
                 type: "object",
                 name: "list",
                 label: "Liste de Service",
