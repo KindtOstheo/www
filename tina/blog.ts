@@ -35,9 +35,16 @@ export function blogFields() {
             label: "Brouillon",
         },
         {
-            label: "Date",
+            label: "Date de parution",
             name: "date",
             type: "datetime",
+            ui: {
+                validate: (value)=>{
+                    if(value){
+                        return 'La date doit etre valide'
+                    }
+                }
+            }
         },
         {
             label: "Body",
