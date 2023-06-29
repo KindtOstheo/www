@@ -22,6 +22,21 @@ export function indexFields() {
                 label: "Titre",
             },
             {
+                type: "string",
+                name: "a_title",
+                label: "Alignement du Titre",
+                options: [{
+                    value: "center",
+                    label: "Centre"
+                  }, {
+                    value: "end",
+                    label: "Droite"
+                  }, {
+                    value: "start",
+                    label: "Gauche"
+                  }]
+            },
+            {
                 label: "Taille Titre en px",
                 name: "f_title",
                 type: "number",
@@ -77,6 +92,33 @@ export function indexFields() {
                 name: "title",
                 label: "Titre",
             },
+            {
+                type: "string",
+                name: "a_title",
+                label: "Alignement du Titre",
+                options: [{
+                    value: "center",
+                    label: "Centre"
+                  }, {
+                    value: "end",
+                    label: "Droite"
+                  }, {
+                    value: "start",
+                    label: "Gauche"
+                  }]
+            },
+            {
+                label: "Taille Titre en px",
+                name: "f_title",
+                type: "number",
+                ui:{
+                    validate: (val)=>{
+                        if(val <= 0 ) {
+                            return 'Le nombre doit etre plus grand que 0'
+                        }
+                    }
+                }
+            }, 
             {
                 type: "string",
                 name: "sub_title",

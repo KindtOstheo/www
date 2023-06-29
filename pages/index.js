@@ -25,7 +25,14 @@ export default function Home(props) {
     data: props.data,
   })  
   const Styles = {
-    fontSize: data.page_d_accueil.banner.f_title ? data.page_d_accueil.banner.f_title : 16
+    baner :{
+      fontSize: data.page_d_accueil.banner.f_title ? data.page_d_accueil.banner.f_title : 16,
+      textAlign: data.page_d_accueil.banner.a_title ? data.page_d_accueil.banner.a_title : "center"
+    },
+    feature : {
+      fontSize: data.page_d_accueil.features.f_title ? data.page_d_accueil.features.f_title : 16,
+      textAlign: data.page_d_accueil.features.a_title ? data.page_d_accueil.features.a_title : "center"
+    },
   };
   useEffect(() => {
     if (window && window.location.pathname.startsWith("/admin")) {
@@ -181,7 +188,7 @@ export default function Home(props) {
                   { (data.page_d_accueil.banner.b_title || data.page_d_accueil.banner.b_link) &&
                     <div className="banner-content col-10 pt-10 pb-10 text-center" >
                       { data.page_d_accueil.banner.b_title && 
-                        <h1 className={`mb-8 banner-title opacity-0`} style={Styles} data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
+                        <h1 className={`mb-8 banner-title opacity-0`} style={Styles.baner} data-tina-field={tinaField(data.page_d_accueil.banner, 'title')} >
                           {data.page_d_accueil.banner.title}
                         </h1>
                       }
@@ -222,7 +229,7 @@ export default function Home(props) {
         <div className="container text-center">
           <div className="animate">
             <p className="uppercase" data-tina-field={tinaField(data.page_d_accueil.features, 'sub_title')}>{data.page_d_accueil.features.sub_title}</p>
-            <h2 className="mt-4 section-title" data-tina-field={tinaField(data.page_d_accueil.features, 'title')}>{data.page_d_accueil.features.title}</h2>
+            <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data.page_d_accueil.features, 'title')}>{data.page_d_accueil.features.title}</h2>
             <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.features, 'description')}> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
           </div>
           <div className="animate from-right relative mt-10">

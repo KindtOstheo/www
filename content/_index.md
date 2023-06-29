@@ -3,6 +3,7 @@ banner:
   b_svg: false
   b_title: true
   title: La vie est mouvement
+  a_title: droite
   f_title: 60
   b_image: true
   image: /images/Couverture M.Faciale.png
@@ -12,6 +13,8 @@ banner:
     href: ''
 features:
   title: l'ostéopathie au service de la santé du corps
+  a_title: center
+  f_title: 40
   sub_title: SPECIAL FEATURES
   description: >
     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
@@ -99,10 +102,12 @@ speciality:
 
 
         1° Une
-        **[contiguïté](<https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp "contigu">)** osseuse, les os se touchent sans être soudés.
+        **[contiguïté](<https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp
+        "contigu">)** osseuse, les os se touchent sans être soudés.
 
 
-        2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie donc les os crâniens.
+        2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie
+        donc les os crâniens.
 
 
         La dure-mère n'est pas élastique, mais très résistante, elle appartient
@@ -110,3 +115,5 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
+
