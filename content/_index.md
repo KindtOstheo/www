@@ -40,6 +40,8 @@ features:
       content: |
         Si tout le monde est contre toi,
         c'est toi qui a raison,
+
+
         car il est impossible que le monde soit peuplé de tant de sages.
     - title: Secured & up-to-date
       icon: shield
@@ -117,6 +119,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
