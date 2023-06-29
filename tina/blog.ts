@@ -40,10 +40,18 @@ export function blogFields() {
             type: "datetime",
             ui: {
                 validate: (value)=>{
-                    if(value){
+                    if(!value){
                         return 'La date doit etre valide'
                     }
                 }
+            }
+        },
+        {
+            type: "string",
+            name: "color",
+            label: "Couleur d'arrière-plan",
+            ui: {
+                component: 'color',   
             }
         },
         {

@@ -261,29 +261,32 @@ export default function Home(props) {
               {data.page_d_accueil.features.list.map((item, index) => (
                 <SwiperSlide key={"feature-" + index} data-tina-field={tinaField(item)}  style={{height: "unset"}}>
                   <div className="h-[94%] feature-card m-4 rounded-md border border-transparent py-16 px-7 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300 hover:border-[#4a4a4a] hover:shadow-none">
-                    <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#4a4a4a] text-primary">
-                      {item.b_icon ?
-                        <FeatherIcon data-tina-field={tinaField(item, 'icon')} icon={item.icon} />
-                        : 
-                        <Image
-                          src={item.image? item.image : ""}
-                          width={80}
-                          height={80}
-                          alt={item.title}
-                          data-tina-field={tinaField(item, 'image')}
-                        />
-                      }
-                    </div>
-                    <h3 
-                      className="h4 mt-6 mb-5" 
-                      style={{
-                          fontSize: item.f_title ? item.f_title : 25,
-                          textAlign: item.a_title ? item.a_title : "center"
-                      }} 
-                      data-tina-field={tinaField(item, 'title')}
-                    >
-                      {item.title}
-                    </h3>
+                    <Link href={item.link ? item.link : "#"} >
+
+                      <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#4a4a4a] text-primary">
+                        {item.b_icon ?
+                          <FeatherIcon data-tina-field={tinaField(item, 'icon')} icon={item.icon} />
+                          : 
+                          <Image
+                            src={item.image? item.image : ""}
+                            width={80}
+                            height={80}
+                            alt={item.title}
+                            data-tina-field={tinaField(item, 'image')}
+                          />
+                        }
+                      </div>
+                      <h3 
+                        className="h4 mt-6 mb-5" 
+                        style={{
+                            fontSize: item.f_title ? item.f_title : 25,
+                            textAlign: item.a_title ? item.a_title : "center"
+                        }} 
+                        data-tina-field={tinaField(item, 'title')}
+                      >
+                        {item.title}
+                      </h3>
+                    </Link>
                     <div 
                       className="TinaMarkdown"
                       data-tina-field={tinaField(item, 'content')}

@@ -186,6 +186,12 @@ export function indexFields() {
                         }
                     }, 
                     {
+                        type: "string",
+                        name: "link",
+                        label: "Lien vers externe ou interne",
+                        description: "Externe: commence par https://www.quelquechose.fr    Interne vers un blog:/posts/Nom du fichier exemple /posts/Acouphene1",
+                    },
+                    {
                         type: "boolean",
                         name: "b_icon",
                         label: "Activer pour icon/ desactiver pour image",
