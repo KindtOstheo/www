@@ -26,11 +26,11 @@ export default function Home(props) {
   })  
   const Styles = {
     baner :{
-      fontSize: data.page_d_accueil.banner.f_title ? data.page_d_accueil.banner.f_title : 16,
+      fontSize: data.page_d_accueil.banner.f_title ? data.page_d_accueil.banner.f_title : 61,
       textAlign: data.page_d_accueil.banner.a_title ? data.page_d_accueil.banner.a_title : "center"
     },
     feature : {
-      fontSize: data.page_d_accueil.features.f_title ? data.page_d_accueil.features.f_title : 16,
+      fontSize: data.page_d_accueil.features.f_title ? data.page_d_accueil.features.f_title : 48,
       textAlign: data.page_d_accueil.features.a_title ? data.page_d_accueil.features.a_title : "center"
     },
     feature_desc : {
@@ -233,7 +233,7 @@ export default function Home(props) {
           <div className="animate">
             <p className="uppercase" data-tina-field={tinaField(data.page_d_accueil.features, 'sub_title')}>{data.page_d_accueil.features.sub_title}</p>
             <h2 className="mt-4 section-title" style={Styles.feature} data-tina-field={tinaField(data.page_d_accueil.features, 'title')}>{data.page_d_accueil.features.title}</h2>
-            <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.features, 'description')}> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
+            <div className="mt-10" style={Styles.feature_desc} data-tina-field={tinaField(data.page_d_accueil.features, 'description')}> <TinaMarkdown content={data.page_d_accueil.features.description} /></div>
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
@@ -274,8 +274,25 @@ export default function Home(props) {
                         />
                       }
                     </div>
-                    <h3 className="h4 mt-6 mb-5" data-tina-field={tinaField(item, 'title')}>{item.title}</h3>
-                    <div className="TinaMarkdown"data-tina-field={tinaField(item, 'content')}><TinaMarkdown content={item.content} /></div>
+                    <h3 
+                      className="h4 mt-6 mb-5" 
+                      style={{
+                          fontSize: item.f_title ? item.f_title : 25,
+                          textAlign: item.a_title ? item.a_title : "center"
+                      }} 
+                      data-tina-field={tinaField(item, 'title')}
+                    >
+                      {item.title}
+                    </h3>
+                    <div 
+                      className="TinaMarkdown"
+                      data-tina-field={tinaField(item, 'content')}
+                      style={{
+                        fontSize: item.f_content ? item.f_content : 16,
+                    }}
+                    >
+                      <TinaMarkdown content={item.content} />
+                    </div>
                   </div>
                 </SwiperSlide>
               ))}
@@ -304,8 +321,25 @@ export default function Home(props) {
               </div>
               <div className="animate lg:col-5 lg:order-2">
                 <p data-tina-field={tinaField(item, 'subtitle')}>{item.subtitle}</p>
-                <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(item, 'title')}>{item.title}</h2>
-                <div className="mt-10 TinaMarkdown" data-tina-field={tinaField(item, 'description')}> <TinaMarkdown content={item.description} /></div>
+                <h2 
+                  className="mt-4 section-title bar-left" 
+                  data-tina-field={tinaField(item, 'title')}
+                  style={{
+                    fontSize: item.f_title ? item.f_title : 40,
+                    textAlign: item.a_title ? item.a_title : "center"
+                  }}
+                >
+                  {item.title}
+                </h2>
+                <div 
+                  className="mt-10 TinaMarkdown" 
+                  data-tina-field={tinaField(item, 'description')}
+                  style={{
+                    fontSize: item.f_description ? item.f_description : 16,
+                  }}
+                > 
+                  <TinaMarkdown content={item.description} />
+                </div>
               </div>
             </div>
           ))}

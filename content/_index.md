@@ -28,6 +28,7 @@ features:
 
 
     L'ostéopathie crânienne ne rentre pas dans ces deux approches.
+  f_description: 16
   list:
     - title: Le crâne et l'ostéopathie
       b_icon: false
@@ -37,6 +38,7 @@ features:
         * Le crâne, appelé aussi "boîte crânienne" est un contenant.
         * Le **contenant** contient le contenu :l'encéphale.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
+      f_content: 16
     - title: Réflexion
       b_icon: true
       icon: wind
@@ -115,5 +117,8 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
+
+
 
 
