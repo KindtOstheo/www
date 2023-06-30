@@ -40,8 +40,9 @@ features:
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
     - title: Réflexion
-      b_icon: true
+      b_icon: false
       icon: wind
+      image: /images/Feuille 2.jpg
       content: |
         Si tout le monde est contre toi,
         c'est toi qui a raison,
@@ -117,6 +118,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
