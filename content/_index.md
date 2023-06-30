@@ -36,7 +36,7 @@ features:
       image: /images/icône feuille (1).png
       content: |
         * Le crâne, appelé aussi "boîte crânienne" est un contenant.
-        * Le **contenant** contient le contenu :l'encéphale.
+        * Le **contenant** contient le contenu : l'encéphale.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
     - title: Réflexion
@@ -117,6 +117,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
