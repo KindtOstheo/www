@@ -31,6 +31,7 @@ features:
   f_description: 16
   list:
     - title: Le crâne et l'ostéopathie
+      link: /posts/acouphene1
       b_icon: false
       icon: lock
       image: /images/icône feuille (1).png
@@ -118,6 +119,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
