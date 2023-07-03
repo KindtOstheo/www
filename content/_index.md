@@ -114,7 +114,8 @@ speciality:
         donc les os crâniens.
       image: /images/Train.png
     - title: La Dure-mère
-      subtitle: même communauté de vie avec l'os
+      a_title: center
+      subtitle: '*        Même communauté de vie avec l''os'
       description: >
         La dure-mère est la membrane méningée la plus externe . Elle fait 
         partie des méninges qui enveloppent l'ensemble du système nerveux
@@ -135,6 +136,7 @@ speciality:
         Les os du crâne et cette membrane nerveuse  ont de tout évidence une
         communauté de vie.
 ---
+
 
 
 
