@@ -122,7 +122,7 @@ speciality:
         central et médullaire.
 
 
-        La dure-mère n'est pas élastique ; collée contre les os du crâne elle
+        La dure-mère n'est pas élastique ; **collée aux os du crâne** elle
         immobilise  les sutures crâniennes.
 
 
@@ -137,6 +137,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
