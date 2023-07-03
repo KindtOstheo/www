@@ -5,11 +5,13 @@ import { legalFields } from "./legal";
 import { blogFields } from "./blog";
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
-
+const clientId = process.env.CLIENTID;
+const token = process.env.TOKEN;
+const indexerToken =process.env.INDEXERTOKEN;
 export default defineConfig({
   branch,
-  clientId: "6602f015-0424-4f1c-b71e-fc4d2780ff41", // Get this from tina.io
-  token: "8776dad76991d2bd507221e1d7d498c51859d7b8", // Get this from tina.io
+  clientId, // Get this from tina.io
+  token, // Get this from tina.io
 
   build: {
     outputFolder: "admin",
@@ -162,7 +164,7 @@ export default defineConfig({
   },
   search: {
     tina: {
-      indexerToken: '92d03469b630d9d5605baf9cfaeb4b0cb0972801',
+      indexerToken,
       stopwordLanguages: ['fra']
     },
     indexBatchSize: 100,
