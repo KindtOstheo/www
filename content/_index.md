@@ -114,11 +114,28 @@ speciality:
         donc les os crâniens.
       image: /images/Train.png
     - title: La Dure-mère
+      subtitle: même communauté de vie avec l'os
       description: >
-        La dure-mère n'est pas élastique, mais très résistante, elle appartient
-        aux membranes méningées, membranes nerveuses extrêmement sensibles qui
-        enveloppent l'ensemble du système nerveux central et médullaire.
+        La dure-mère est la membrane méningée la plus externe . Elle fait 
+        partie des méninges qui enveloppent l'ensemble du système nerveux
+        central et médullaire.
+
+
+        La dure-mère n'est pas élastique ; collée contre les os du crâne elle
+        immobilise  les sutures crâniennes.
+
+
+        Elle est également  très résistante.
+
+
+        Constituant les méninges, cette membrane nerveuse est extrêmement
+        sensibles. 
+
+
+        Les os du crâne et cette membrane nerveuse  ont de tout évidence une
+        communauté de vie.
 ---
+
 
 
 
