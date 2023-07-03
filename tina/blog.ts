@@ -61,6 +61,27 @@ export function blogFields() {
             type: "rich-text",
             templates: [
                 {
+                    name: "Images",
+                    label: "Image avec hauteur paramétrable ",
+                    fields:[
+                        {
+                            name: "src",
+                            label: "Image",
+                            type: "image",
+                        },
+                        {
+                            name: "title",
+                            label: "Titre de l'image",
+                            type: "string",
+                        },
+                        {
+                            name: "height",
+                            label: "Hauteur de l'image en px",
+                            type: "number",
+                        },
+                    ]
+                },
+                {
                     name: "Blockquote",
                     label: "Citation",
                     fields:[

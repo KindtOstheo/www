@@ -13,11 +13,11 @@ import ImageFallback from "./components/ImageFallback";
 import Post from "./partials/Post";
 
 const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
-  let { description, title, date, image, author, color } = frontmatter;
+  let { description, title, date, image, author, color, fontsize } = frontmatter;
   description = description ? description : content.slice(0, 120);
 
   const { disqus } = config;
-  const { colors } = theme;
+  const { colors, fonts } = theme;
 
   return (
     <Base title={title} description={description}>

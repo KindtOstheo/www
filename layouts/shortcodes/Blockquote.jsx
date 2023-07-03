@@ -7,7 +7,8 @@ const Blockquote = ({ name, children }) => {
         <TfiQuoteLeft />
       </span> */}
       {children}
-      <span className="m-0 block border-t border-border-secondary pt-3 text-base font-normal text-text after:hidden">
+
+      <span className={`m-0 block border-t border-border-secondary pt-3 text-base font-normal text-text after:hidden ${name ? "":"hidden"}`}>
         {name}
       </span>
     </blockquote>
