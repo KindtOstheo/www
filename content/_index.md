@@ -73,6 +73,11 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
+    - title: La Dure-mère
+      description: >
+        La dure-mère n'est pas élastique, mais très résistante, elle appartient
+        aux membranes méningées, membranes nerveuses extrêmement sensibles qui
+        enveloppent l'ensemble du système nerveux central et médullaire.
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -119,6 +124,7 @@ speciality:
         enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
 ---
+
 
 
 
