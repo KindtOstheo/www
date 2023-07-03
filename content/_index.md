@@ -129,13 +129,14 @@ speciality:
         Elle est également  très résistante.
 
 
-        Constituant les méninges, cette membrane nerveuse est extrêmement
-        sensibles. 
+        Faisant partie intégrante des méninges, cette membrane nerveuse est
+        extrêmement sensibles. 
 
 
         Les os du crâne et cette membrane nerveuse  ont  donc de tout évidence
         une communauté de vie.
 ---
+
 
 
 
