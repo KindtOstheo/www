@@ -123,20 +123,21 @@ speciality:
 
 
         La dure-mère n'est pas élastique ; **collée aux os du crâne** elle
-        immobilise  les sutures crâniennes.
+        solidarise  les sutures crâniennes.
 
 
         Elle est également  très résistante.
 
 
         Faisant partie intégrante des méninges, cette membrane nerveuse est
-        extrêmement sensibles. 
+        extrêmement sensibles.
 
 
         Les os du crâne et cette membrane nerveuse  ont  donc de tout évidence
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
