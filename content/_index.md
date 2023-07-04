@@ -19,15 +19,24 @@ features:
   description: >
     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
     Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
-    années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus;
-    comme la sphère ORL et Dentaire.
+    années. Aujourd'hui, elle tente d'apporter sa contribution dans des domaines
+    d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
 
 
-    Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
-    l'autre fonctionnelle, sauf que,
+    Au niveau vertébral, Il y a essentiellement deux approches ostéopathiques ;
+    l'une structurelle, l'autre fonctionnelle.
+
+
+    §
+
+
+    \*0\*0\*0\*0\*0\*
 
 
     **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
+
+
+    \*
   f_description: 16
   list:
     - title: Le crâne et l'ostéopathie
@@ -130,13 +139,14 @@ speciality:
 
 
         Faisant partie intégrante des méninges, cette membrane nerveuse est
-        extrêmement sensibles.
+        extrêmement sensible.
 
 
         Les os du crâne et cette membrane nerveuse  ont  donc de tout évidence
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
