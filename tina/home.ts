@@ -283,6 +283,33 @@ export function indexFields() {
                         label: "Sous Titre",
                     },
                     {
+                        type: "string",
+                        name: "a_subtitle",
+                        label: "Alignement du Sous Titre",
+                        options: [{
+                            value: "center",
+                            label: "Centre"
+                          }, {
+                            value: "end",
+                            label: "Droite"
+                          }, {
+                            value: "start",
+                            label: "Gauche"
+                          }]
+                    },
+                    {
+                        label: "Taille Sous Titre en px",
+                        name: "f_subtitle",
+                        type: "number",
+                        ui:{
+                            validate: (val)=>{
+                                if(val <= 0 ) {
+                                    return 'Le nombre doit etre plus grand que 0'
+                                }
+                            }
+                        }
+                    }, 
+                    {
                         type: "rich-text",
                         name: "description",
                         label: "Description",

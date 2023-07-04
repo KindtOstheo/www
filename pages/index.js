@@ -323,7 +323,12 @@ export default function Home(props) {
                 />
               </div>
               <div className="animate lg:col-5 lg:order-2">
-                <p data-tina-field={tinaField(item, 'subtitle')}>{item.subtitle}</p>
+                <p data-tina-field={tinaField(item, 'subtitle')}
+                  style={{
+                    fontSize: item.f_subtitle ? item.f_subtitle : 20,
+                    textAlign: item.a_subtitle ? item.a_subtitle : "center"
+                  }}
+                >{item.subtitle}</p>
                 <h2 
                   className="mt-4 section-title bar-left" 
                   data-tina-field={tinaField(item, 'title')}
