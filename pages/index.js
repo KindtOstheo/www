@@ -322,7 +322,7 @@ export default function Home(props) {
                   data-tina-field={tinaField(item, 'image')}
                 />
               </div>
-              <div className="animate lg:col-5 lg:order-2">
+              <div className="animate lg:col-6 lg:order-2">
                 <p data-tina-field={tinaField(item, 'subtitle')}
                   style={{
                     fontSize: item.f_subtitle ? item.f_subtitle : 20,
