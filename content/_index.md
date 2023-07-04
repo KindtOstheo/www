@@ -36,7 +36,7 @@ features:
       icon: lock
       image: /images/icône feuille (1).png
       content: |
-        * Le crâne, appelé aussi "boîte crânienne" est un contenant.
+        * Le crâne, appelé aussi "boîte crânienne" ;  est un contenant.
         * Le **contenant** contient le contenu : l'encéphale.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
@@ -137,6 +137,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
