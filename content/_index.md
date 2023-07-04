@@ -19,24 +19,33 @@ features:
   description: >
     L'ostéopathie est née il y a plus de 150 ans avec des précurseurs comme
     Still, Sutherland, Frymann et n'a cessé d'évoluer au cours de toutes ces
-    années, comme aujourd'hui, dans des domaines d'ailleurs très inattendus;
-    comme la sphère ORL et Dentaire.
+    années. Aujourd'hui, elle tente d'apporter sa contribution dans des domaines
+    d'ailleurs très inattendus; comme la sphère ORL et Dentaire.
 
 
-    Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
-    l'autre fonctionnelle.
+    Au niveau vertébral, Il y a essentiellement deux approches ostéopathiques ;
+    l'une structurelle, l'autre fonctionnelle.
 
 
-    L'ostéopathie crânienne ne rentre pas dans ces deux approches.
+    §
+
+
+    \*0\*0\*0\*0\*0\*
+
+
+    **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
+
+
+    \*
   f_description: 16
   list:
     - title: Le crâne et l'ostéopathie
       link: /posts/acouphene1
       b_icon: false
       icon: lock
-      image: /images/icône feuille (1).png
+      image: /images/Feuille fond jaune.png
       content: |
-        * Le crâne, appelé aussi "boîte crânienne" est un contenant.
+        * Le crâne, appelé aussi "boîte crânienne" ;  est un contenant.
         * Le **contenant** contient le contenu : l'encéphale.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
@@ -112,13 +121,43 @@ speciality:
 
         2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie
         donc les os crâniens.
-
-
-        La dure-mère n'est pas élastique, mais très résistante, elle appartient
-        aux membranes méningées, membranes nerveuses extrêmement sensibles qui
-        enveloppent l'ensemble du système nerveux central et médullaire.
       image: /images/Train.png
+    - title: La Dure-mère
+      a_title: center
+      subtitle: ' Même communauté de vie avec l''os'
+      description: >
+        La dure-mère est la membrane méningée la plus externe . Elle fait 
+        partie des méninges qui enveloppent l'ensemble du système nerveux
+        central et médullaire.
+
+
+        La dure-mère n'est pas élastique ; **collée aux os du crâne** elle
+        solidarise  les sutures crâniennes.
+
+
+        Elle est également  très résistante.
+
+
+        Faisant partie intégrante des méninges, cette membrane nerveuse est
+        extrêmement sensible.
+
+
+        Les os du crâne et cette membrane nerveuse  ont  donc de tout évidence
+        une communauté de vie.
+      image: /images/1688411679257.jpg
 ---
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
