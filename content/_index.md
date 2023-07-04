@@ -24,17 +24,17 @@ features:
 
 
     Il y a essentiellement deux approches ostéopathiques ; l'une structurelle,
-    l'autre fonctionnelle.
+    l'autre fonctionnelle, sauf que,
 
 
-    L'ostéopathie crânienne ne rentre pas dans ces deux approches.
+    **L'ostéopathie crânienne ne rentre pas dans ces deux approches.**
   f_description: 16
   list:
     - title: Le crâne et l'ostéopathie
       link: /posts/acouphene1
       b_icon: false
       icon: lock
-      image: /images/icône feuille (1).png
+      image: /images/Feuille fond jaune.png
       content: |
         * Le crâne, appelé aussi "boîte crânienne" ;  est un contenant.
         * Le **contenant** contient le contenu : l'encéphale.
@@ -137,6 +137,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
