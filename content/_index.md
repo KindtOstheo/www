@@ -135,8 +135,8 @@ speciality:
         sutures crâniennes.
 
 
-        C'est une membrane fibreuse, donc très peu élastique, épaisse et très
-        résistante.
+        C'est une membrane fibreuse, donc **très peu élastique**, épaisse et
+        très résistante.
 
 
         Faisant partie intégrante des méninges, cette membrane nerveuse est
@@ -147,6 +147,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
