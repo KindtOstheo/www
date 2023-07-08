@@ -131,12 +131,12 @@ speciality:
         central et médullaire, elle s'étend du sommet du crâne jusqu'au sacrum.
 
 
-        La dure-mère n'est pas élastique ; **elle adhère** **aux os du crâne,
-        **solidarise ainsi les sutures crâniennes.
+        La dure-mère** adhère** **aux os du crâne, **solidarise ainsi les
+        sutures crâniennes.
 
 
-        La dure-mère est une membrane fibreuse 'très peu élastique) épaisse et
-        très résistante.
+        C'est une membrane fibreuse, donc très peu élastique, épaisse et très
+        résistante.
 
 
         Faisant partie intégrante des méninges, cette membrane nerveuse est
@@ -147,6 +147,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
