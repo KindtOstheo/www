@@ -121,21 +121,22 @@ speciality:
 
         2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie
         donc les os crâniens.
-      image: /images/Train.png
+      image: /images/La Suture crânienne 3.png
     - title: La Dure-mère
       a_title: center
       subtitle: ' Même communauté de vie avec l''os'
       description: >
         La dure-mère est la membrane méningée la plus externe . Elle fait 
         partie des méninges qui enveloppent l'ensemble du système nerveux
-        central et médullaire.
+        central et médullaire, elle s'étend du sommet du crâne jusqu'au sacrum.
 
 
-        La dure-mère n'est pas élastique ; **collée aux os du crâne** elle
-        solidarise  les sutures crâniennes.
+        La dure-mère n'est pas élastique ; **elle adhère** **aux os du crâne,
+        **solidarise ainsi les sutures crâniennes.
 
 
-        Elle est également  très résistante.
+        La dure-mère est une membrane fibreuse 'très peu élastique) épaisse et
+        très résistante.
 
 
         Faisant partie intégrante des méninges, cette membrane nerveuse est
@@ -146,6 +147,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
