@@ -59,6 +59,7 @@ features:
         car il est impossible que le monde soit peuplé de tant de sages.
     - title: La lésion ostéopathique
       icon: shield
+      image: /images/Feuille 3.png
       content: >
         La lésion ostéopathique est une expression qui s'applique
         essentiellement à propos des vertèbres.
@@ -166,6 +167,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
