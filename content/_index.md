@@ -121,7 +121,7 @@ speciality:
 
         2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie
         donc les os crâniens.
-      image: ''
+      image: /images/Suture crânienne 5.png
     - title: La Dure-mère
       a_title: center
       subtitle: ' Même communauté de vie avec l''os'
@@ -147,6 +147,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
