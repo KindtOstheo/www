@@ -57,11 +57,26 @@ features:
         Si tout le monde est contre toi,
         c'est toi qui a raison,
         car il est impossible que le monde soit peuplé de tant de sages.
-    - title: Secured & up-to-date
+    - title: La lésion ostéopathique
       icon: shield
       content: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+        La lésion ostéopathique est une expression qui s'applique
+        essentiellement à propos des vertèbres.
+
+
+        Une lésion ostéopathique signifie que la vertèbre a perdu sa mobilité
+        dans un des trois plans de l'espace.
+
+
+        * Le plan sagital
+
+        * Le plan frontal
+
+        * Le plan horizontal
+
+
+        La perte de mobilité peut-être plus ou moins complète, dans un ou
+        plusieurs plans
     - title: Instant Link Sharing
       b_icon: true
       icon: link
@@ -151,6 +166,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
