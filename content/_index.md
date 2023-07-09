@@ -85,7 +85,7 @@ speciality:
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
-        °°           °°     
+        °°           °°
 
 
         Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
@@ -113,17 +113,18 @@ speciality:
         peut-être désarticulé, lors d'une autopsie; quelque soit l'âge.
 
 
-        L'étude histologique d'une suture crânienne montre deux éléments
-        apparemment contradictoires :
+        L'étude histologique d'une suture crânienne montre deux éléments bien
+        différents .
 
 
         1° Une
         **[contiguïté](<https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp
-        "contigu">)** osseuse, les os se touchent sans être soudés.
+        "contigu">)** **osseuse**, les os se touchent sans qu'ils ne soient
+        soudés.
 
 
-        2° Une **continuité** membraneuse, par la dure-mère qui tapisse et relie
-        donc les os crâniens.
+        2° Une **continuité** **membraneuse**, par la dure-mère qui tapisse et
+        relie donc les os crâniens.
       image: /images/Suture crânienne 5.png
     - title: La Dure-mère
       a_title: center
@@ -150,6 +151,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
