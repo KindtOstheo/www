@@ -8,7 +8,6 @@ const { blog_folder } = config.settings;
 
 // post single layout
 export function Article(props){
-  console.log(props);
 
   const { data } = useTina({
     query: props.query,
