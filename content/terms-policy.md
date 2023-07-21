@@ -156,7 +156,6 @@ Sécurité et confidentialité
 
 Le site web met en oeuvre des mesures organisationnelles, techniques, logicielles et physiques en matière de sécurité du numérique pour protéger les données personnelles contre les altérations, destructions et accès non autorisés. Toutefois, il est à signaler qu'internet n'est pas un environnement complètement sécurisé et le site web ne peut pas garantir la sécurité de la transmission ou du stockage des informations sur internet.
 
-
 Mise en oeuvre des droits des utilisateurs
 
 En application de la réglementation applicable aux données à caractère personnel, les utilisateurs disposent des droits suivants, qu'ils peuvent exercer en faisant leur demande à l'adresse suivante : dkindt83@gmail.com.
@@ -185,6 +184,3 @@ Article 9 - Loi applicable
 Les présentes conditions générales d'utilisation sont soumises à l'application du droit français.
 
 Si les parties n'arrivent pas à résoudre un litige à l'amiable, le litige sera soumis à la compétence des tribunaux français.
-
-
-
