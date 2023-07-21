@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TinaMarkdown } from "tinacms/dist/rich-text";
 
 const Button = ({ href, type, rel, children }) => {
   return (
@@ -12,7 +13,7 @@ const Button = ({ href, type, rel, children }) => {
         type === "outline" ? "btn-outline-primary" : "btn-primary"
       } border-primary hover:text-white hover:no-underline`}
     >
-      {children}
+      <TinaMarkdown content={children} />
     </Link>
   );
 };
