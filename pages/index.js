@@ -351,29 +351,8 @@ export default function Home(props) {
               </div>
             </div>
           ))}
-          
-          {/* <div className="row items-center" data-tina-field={tinaField(data.page_d_accueil.speciality, 'secondary')}>
-            <div className="animate lg:col-6">
-              <ImageFallback
-                className="mx-auto"
-                src={data.page_d_accueil.speciality.secondary.image}
-                width={575}
-                height={511}
-                alt="secondary speciality"
-                data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'image')}
-              />
-            </div>
-            <div className="animate lg:col-5">
-              <p>{data.page_d_accueil.speciality.secondary.subtitle}</p>
-              <h2 className="mt-4 section-title bar-left" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'title')}>{data.page_d_accueil.speciality.secondary.title}</h2>
-              <div className="mt-10" data-tina-field={tinaField(data.page_d_accueil.speciality.secondary, 'description')}> <TinaMarkdown content={data.page_d_accueil.speciality.secondary.description} /></div>
-            </div>
-          </div> */}
         </div>
       </section>
-
-      {/* Cta */}
-      <Cta />
     </Base>
   );
 };
