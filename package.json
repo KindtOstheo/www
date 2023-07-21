@@ -8,7 +8,8 @@
     "build": "tinacms build && next build",
     "export": "next build && next export",
     "lint": "next lint",
-    "start": "tinacms build && next start"
+    "start": "tinacms build && next start",
+    "audit": "tinacms audit --clean"
   },
   "dependencies": {
     "@tinacms/cli": "^1.5.18",

@@ -26,9 +26,7 @@ const Base = ({
 
   //gsap fade animation
   useEffect(() => {
-    if (window && window.location.pathname.startsWith("/admin")) {
-      setPrefix("/admin");
-    } 
+
     const ctx = gsap.context(() => {
       //fade
       const fadeElements = document.querySelectorAll(".fade");

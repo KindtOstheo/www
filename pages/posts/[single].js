@@ -1,30 +1,37 @@
 import config from "@config/config.json";
-import PostSingle from "@layouts/PostSingle";
 import { getSinglePage } from "@lib/contentParser";
-import parseMDX from "@lib/utils/mdxParser";
 import { sortByDate } from "@lib/utils/sortFunctions";
+import { client } from "../../tina/__generated__/client";
+import { useTina } from 'tinacms/dist/react'
+import PostSingle from "@layouts/PostSingle";
 const { blog_folder } = config.settings;
 
 // post single layout
-const Article = ({ post, authors, mdxContent, slug, recentPosts }) => {
-  const { frontmatter, content } = post[0];
+export function Article(props){
+  console.log(props);
 
+  const { data } = useTina({
+    query: props.query,
+    variables: props.variables,
+    data: props.data,
+  });
+ 
   return (
-    <PostSingle
-      frontmatter={frontmatter}
-      content={content}
-      mdxContent={mdxContent}
-      authors={authors}
-      slug={slug}
-      recentPosts={recentPosts}
+    <PostSingle 
+       {...data}
+       recentPosts={props.recentPosts}
     />
   );
 };
 
 // get post single slug
-export const getStaticPaths = () => {
-  const allSlug = getSinglePage(`content/${blog_folder}`);
-  const paths = allSlug.map((item) => ({
+export const getStaticPaths = async () => {
+  //const allSlug = getSinglePage(`content/${blog_folder}`);
+  const blogsResponse = await client.queries.blogConnection();
+  const posts = blogsResponse.data.blogConnection.edges.map((post) => {
+    return { slug: post.node._sys.filename };
+  })
+  const paths = posts.map((item) => ({
     params: {
       single: item.slug,
     },
@@ -32,22 +39,21 @@ export const getStaticPaths = () => {
 
   return {
     paths,
-    fallback: false,
+    fallback: "blocking",
   };
 };
 
 // get post single content
 export const getStaticProps = async ({ params }) => {
   const { single } = params;
+  const post = await client.queries.blog({
+    relativePath: `${params.single}.mdx`,
+  });
   const posts = getSinglePage(`content/${blog_folder}`);
-  const post = posts.filter((p) => p.slug == single);
-  const mdxContent = await parseMDX(post[0].content);
   const recentPosts = sortByDate(posts).filter((post) => post.slug !== single);
-
   return {
     props: {
-      post: post,
-      mdxContent: mdxContent,
+      ...post,
       slug: single,
       recentPosts: recentPosts,
     },

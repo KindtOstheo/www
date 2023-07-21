@@ -58,6 +58,11 @@ export default defineConfig({
           include: "**/*",
           exclude:"_index.md",
         },
+        ui: {
+          router: ({ document }) => {
+            return `/posts/${document._sys.filename}`;
+          },
+        },
         defaultItem: () => {
           return {
             author:{
