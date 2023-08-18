@@ -175,8 +175,8 @@ speciality:
         central et médullaire, elle s'étend du sommet du crâne jusqu'au sacrum.
 
 
-        La dure-mère \*\*adhère aux os du crâne, \*\*solidarise ainsi les
-        sutures crâniennes.
+        La dure-mère "adhère aux os du crâne", solidarise ainsi les sutures
+        crâniennes.
 
 
         C'est une membrane fibreuse, donc **très peu élastique**, épaisse et
@@ -191,6 +191,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
