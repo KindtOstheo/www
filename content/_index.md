@@ -164,7 +164,7 @@ speciality:
 
 
         2° Une **continuité** **membraneuse**, la membrane dure-mérienne sans
-        discontinuité  tapisse et relie donc les os crâniens.
+        discontinuité  tapisse et relie les os crâniens.
       image: /images/Suture crânienne 5.png
     - title: La Dure-mère
       a_title: center
@@ -191,6 +191,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
