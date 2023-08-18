@@ -106,15 +106,16 @@ features:
         \*
 
 
-        Une formidable fonction qu'a notre organisme à réguler notre équilibre
-        qu'il soit somatique ou psychique.
+        Une formidable fonction qu'a notre organisme ; l'homéostasie . La
+        capacité à équilibrer en permance  notre équilibre qu'il soit somatique
+        ou psychique.
 
 
         Autrement dit une lésion ostéopathique peut très bien se normaliser
         elle-même grâce à notre système d'auto-régulation.
 
 
-        Là où il y a désordre, est quand le corps n'arrive plus à se réguler.
+        Là où il y a désordre, est quand le corps n'arrive plus à le réguler.
     - title: Magnetic Turning
       b_icon: true
       icon: wind
@@ -191,6 +192,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
