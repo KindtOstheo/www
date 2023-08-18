@@ -100,6 +100,9 @@ features:
       b_icon: true
       icon: lock
       content: >
+        \*
+
+
         Une formidable fonction qu'a notre organisme à réguler notre équilibre
         qu'il soit somatique ou psychique.
 
@@ -185,6 +188,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
