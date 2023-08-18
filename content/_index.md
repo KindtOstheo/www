@@ -66,7 +66,7 @@ features:
 
 
         Une lésion ostéopathique signifie que la vertèbre a perdu sa mobilité
-        dans un des trois plans de l'espace.
+        dans un ou plusieurs des trois plans de l'espace.
 
 
         * Le plan sagital
@@ -77,7 +77,7 @@ features:
 
 
         La perte de mobilité peut-être plus ou moins complète, dans un ou
-        plusieurs plans
+        plusieurs de ces plans.
     - title: Instant Link Sharing
       b_icon: true
       icon: link
@@ -134,9 +134,8 @@ speciality:
 
 
         1° Une
-        **[contiguïté](<https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp
-        "contigu">)** **osseuse**, les os se touchent sans qu'ils ne soient
-        soudés.
+        **[contiguïté](https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp%20%22contigu%22)**
+        **osseuse**, les os se touchent sans qu'ils ne soient soudés.
 
 
         2° Une **continuité** **membraneuse**, par la dure-mère qui tapisse et
@@ -167,6 +166,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
