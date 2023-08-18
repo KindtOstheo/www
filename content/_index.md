@@ -135,11 +135,11 @@ speciality:
 
         1° Une
         **[contiguïté](https://www.google.com/search?q=contigu\\\&sxsrf=APwXEdfQS3lChPJnF28Mqw0Utsnb982dNw%3A1687766143329\\\&ei=f0SZZJPVE-zFkdUP5euoyAk\\\&oq=contigu\\\&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgwIIxCKBRAnEEYQ-QEyCAgAEIAEELEDMgUIABCABDIFCAAQgAQyBwgAEIoFEEMyCAgAEIAEEMsBMgUIABCABDIFCAAQgAQyCAgAEIAEEMsBMgUIABCABDoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQgAQQCjogCAAQigUQRhD5ARCXBRCMBRDdBBBGEPQDEPUDEPYDGAFKBAhBGABQoghYzhFg8SZoAXABeACAAYEBiAGeApIBAzIuMZgBAKABAcABAcgBCtoBBggBEAEYEw\\\&sclient=gws-wiz-serp%20%22contigu%22)**
-        **osseuse**, les os se touchent sans qu'ils ne soient soudés.
+        **osseuse**, les os se touchent mais ne se collent pas.
 
 
-        2° Une **continuité** **membraneuse**, par la dure-mère qui tapisse et
-        relie donc les os crâniens.
+        2° Une **continuité** **membraneuse**, la membrane dure-mérienne sans
+        discontinuité  tapisse et relie donc les os crâniens.
       image: /images/Suture crânienne 5.png
     - title: La Dure-mère
       a_title: center
@@ -166,6 +166,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
