@@ -79,6 +79,7 @@ features:
         La perte de mobilité peut-être plus ou moins complète, dans un ou
         plusieurs de ces plans.
     - title: La lésion crânienne
+      link: sensitive
       b_icon: true
       icon: link
       content: >
@@ -95,12 +96,19 @@ features:
 
 
         ###### "sensitive".
-    - title: Updated Security
+    - title: L'Homéostasie
       b_icon: true
       icon: lock
       content: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+        Une formidable fonction qu'a notre organisme à réguler notre équilibre
+        qu'il soit somatique ou psychique.
+
+
+        Autrement dit une lésion ostéopathique peut très bien se normaliser
+        elle-même grâce à notre système d'auto-régulation.
+
+
+        Là où il y a désordre, est quand le corps n'arrive plus à se réguler.
     - title: Magnetic Turning
       b_icon: true
       icon: wind
@@ -177,6 +185,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
