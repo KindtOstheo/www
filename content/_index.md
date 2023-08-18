@@ -78,12 +78,21 @@ features:
 
         La perte de mobilité peut-être plus ou moins complète, dans un ou
         plusieurs de ces plans.
-    - title: Instant Link Sharing
+    - title: La lésion crânienne
       b_icon: true
       icon: link
       content: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+        ###### La lésion crânienne ostéopathique.
+
+
+        C'est la perte d'indépendance d'un ou plusieurs os du crâne. On ne parle
+        pas de mobilité, puisque les os ne bougent pas au sens articulaire du
+        terme.
+
+
+        Lors d'une lésion, sur tout ou partie de la suture, il y a des points
+        d'accroche qui font perdre, à l'os crânien concerné, sa liberté
+        "sensitive".
     - title: Updated Security
       b_icon: true
       icon: lock
@@ -166,6 +175,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
