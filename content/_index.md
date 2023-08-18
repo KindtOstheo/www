@@ -83,6 +83,9 @@ features:
       b_icon: true
       icon: link
       content: >
+        ###### \*
+
+
         ###### La lésion crânienne ostéopathique.
 
 
@@ -188,6 +191,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
