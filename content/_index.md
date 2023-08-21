@@ -46,7 +46,7 @@ features:
       image: /images/Feuille fond jaune.png
       content: |
         * Le crâne, appelé aussi "boîte crânienne" ;  est un contenant.
-        * Le **contenant** contient le contenu : l'encéphale.
+        * L'encéphale est le contenu.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
     - title: Réflexion
@@ -192,6 +192,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
