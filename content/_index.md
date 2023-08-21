@@ -148,7 +148,8 @@ speciality:
 
         La vie de notre cerveau crée des résonnances, dûes à cette activité
         énergétique ; est-ce aussi insensé de concevoir une boîte crânienne qui
-        permette leurs libérations ?
+        permette leurs libérations ? Ne serait-ce pas une des fonctions de la
+        suture crânienne ?
       image: /images/image.png
     - title: La Boîte Crânienne
       subtitle: Première approche
@@ -219,6 +220,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
