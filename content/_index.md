@@ -127,28 +127,28 @@ speciality:
     - title: Les os constituants la boîte crânienne restent libres
       subtitle: Accoler n'est pas coller
       description: >
-        Les os constituant la boîte crânienne reste libres, ils sont accoler et
-        pas coller.
+        Les os constituants la boîte crânienne restent libres, ils sont accolés
+        et pas collés.
 
 
         Cette notion est très loin d'être reconnue par le corps médical et crée
         une incompréhension pour ne pas dire une opposition à une éventuelle
-        action à ce niveau.
+        action ostéopathique à ce niveau.
 
 
         La vie est mouvement, la mort est inertie.
 
 
-        Concevoir une activité aussi intense au nivau cérébral, avec des
+        Concevoir une activité aussi intense au niveau cérébral, avec des
         milliards de connexions nerveuses, une circulation sanguine intense, des
         pouls puissants de l'encéphale, dans une rythmique immuable; une telle
         activité de vie peut-elle être contenue dans une boîte rigide, fermée,
         inerte, morte ?
 
 
-        Est-ce aussi insensé de concevoir une boîte crânienne qui permettent la
-        libération de toutes ces résonnances énergétiques que crée la vie de
-        notre cerveau ?
+        La vie de notre cerveau crée des résonnances, dûes à l'activité
+        énergétique ; est-ce aussi insensé de concevoir une boîte crânienne qui
+        permette leurs libérations ?
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -218,6 +218,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
