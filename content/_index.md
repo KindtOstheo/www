@@ -95,7 +95,7 @@ features:
 
 
         Lors d'une lésion, sur tout ou partie de la suture, il y a des points
-        d'accroche qui font perdre, à l'os crânien concerné, sa liberté  
+        d'accroche qui font perdre, à l'os crânien concerné, sa liberté
 
 
         ###### "sensitive".
@@ -192,6 +192,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
