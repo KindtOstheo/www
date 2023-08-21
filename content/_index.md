@@ -146,7 +146,7 @@ speciality:
         inerte, morte ?
 
 
-        La vie de notre cerveau crée des résonnances, dûes à l'activité
+        La vie de notre cerveau crée des résonnances, dûes à cette activité
         énergétique ; est-ce aussi insensé de concevoir une boîte crânienne qui
         permette leurs libérations ?
     - title: La Boîte Crânienne
@@ -218,6 +218,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
