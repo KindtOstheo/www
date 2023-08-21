@@ -142,8 +142,13 @@ speciality:
         Concevoir une activité aussi intense au nivau cérébral, avec des
         milliards de connexions nerveuses, une circulation sanguine intense, des
         pouls puissants de l'encéphale, dans une rythmique immuable; une telle
-        activité de vie peut-elle être contenue dans une boîte rigide, inerte,
-        morte ?
+        activité de vie peut-elle être contenue dans une boîte rigide, fermée,
+        inerte, morte ?
+
+
+        Est-ce aussi insensé de concevoir une boîte crânienne qui permettent la
+        libération de toutes ces résonnances énergétiques que crée la vie de
+        notre cerveau ?
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -213,6 +218,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
