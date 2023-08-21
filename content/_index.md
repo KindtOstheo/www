@@ -124,14 +124,35 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
+    - title: Les os constituants la boîte crânienne restent libres
+      subtitle: Accoler n'est pas coller
+      description: >
+        Les os constituant la boîte crânienne reste libres, ils sont accoler et
+        pas coller.
+
+
+        Cette notion est très loin d'être reconnue par le corps médical et crée
+        une incompréhension pour ne pas dire une opposition à une éventuelle
+        action à ce niveau.
+
+
+        La vie est mouvement, la mort est inertie.
+
+
+        Concevoir une activité aussi intense au nivau cérébral, avec des
+        milliards de connexions nerveuses, une circulation sanguine intense, des
+        pouls puissants de l'encéphale, dans une rythmique immuable; une telle
+        activité de vie peut-elle être contenue dans une boîte rigide, inerte,
+        morte ?
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
         °°           °°
 
 
-        Les premiers ostéopathes Américains à s'intéresser aux crânes sont sans
-        doute M. Sutherland, Miller, Fulford  Arbuckle vers 1941-3.
+        Les premiers ostéopathes Américains à commencer à s'intéresser aux
+        crânes sont sans doute M. Sutherland, Miller, Fulford,  Arbuckle; vers
+        les années 1941.
 
 
         Une des premières observations faite lors des autopsies, est que "la
@@ -192,6 +213,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
