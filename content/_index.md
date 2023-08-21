@@ -149,6 +149,7 @@ speciality:
         La vie de notre cerveau crée des résonnances, dûes à cette activité
         énergétique ; est-ce aussi insensé de concevoir une boîte crânienne qui
         permette leurs libérations ?
+      image: /images/image.png
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -218,6 +219,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
