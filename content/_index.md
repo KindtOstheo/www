@@ -139,17 +139,17 @@ speciality:
         La vie est mouvement, la mort est inertie.
 
 
-        Concevoir une activité aussi intense au niveau cérébral, avec des
-        milliards de connexions nerveuses, une circulation sanguine intense, des
-        pouls puissants de l'encéphale, dans une rythmique immuable; une telle
-        activité de vie peut-elle être contenue dans une boîte rigide, fermée,
-        inerte, morte ?
+        Concevoir une activité aussi intense au niveau cérébral avec des
+        milliards de connexions nerveuses, là où le sang, circule à 0, 750
+        L/minute engendrant des pouls puissants dans une rythmique essentielle ;
+        une telle activité de vie peut-elle être contenue dans une boîte rigide,
+        fermée, inerte, morte ?
 
 
-        La vie de notre cerveau crée des résonnances, dûes à cette activité
-        énergétique ; est-ce aussi insensé de concevoir une boîte crânienne qui
-        permette leurs libérations ? Ne serait-ce pas une des fonctions de la
-        suture crânienne ?
+        Cette activité énergétique cérébrale crée inévitablement des résonnances
+        ; est-ce aussi insensé de concevoir une boîte crânienne qui permette
+        leurs libérations ? Ne serait-ce pas  là une des fonctions de la suture
+        crânienne ?
       image: /images/image.png
     - title: La Boîte Crânienne
       subtitle: Première approche
@@ -220,6 +220,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
 ---
+
 
 
 
