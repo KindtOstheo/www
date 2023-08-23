@@ -124,33 +124,6 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
-    - title: Les os constituants la boîte crânienne restent libres
-      subtitle: Accoler n'est pas coller
-      description: >
-        Les os constituants la boîte crânienne restent libres, ils sont accolés
-        et pas collés.
-
-
-        Cette notion est très loin d'être reconnue par le corps médical et crée
-        une incompréhension pour ne pas dire une opposition à une éventuelle
-        action ostéopathique à ce niveau.
-
-
-        La vie est mouvement, la mort est inertie.
-
-
-        Concevoir une activité aussi intense au niveau cérébral avec des
-        milliards de connexions nerveuses, là où le sang, circule à 0, 750
-        L/minute engendrant des pouls puissants dans une rythmique essentielle ;
-        une telle activité de vie peut-elle être contenue dans une boîte rigide,
-        fermée, inerte, morte ?
-
-
-        Cette activité énergétique cérébrale crée inévitablement des résonnances
-        ; est-ce aussi insensé de concevoir une boîte crânienne qui permette
-        leurs libérations ? Ne serait-ce pas  là une des fonctions de la suture
-        crânienne ?
-      image: /images/image.png
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -219,7 +192,35 @@ speciality:
         Les os du crâne et cette membrane nerveuse  ont  donc de tout évidence
         une communauté de vie.
       image: /images/1688411679257.jpg
+    - title: Les os constituants la boîte crânienne restent libres
+      subtitle: Accoler n'est pas coller
+      description: >
+        Les os constituants la boîte crânienne restent libres, ils sont accolés
+        et pas collés.
+
+
+        Cette notion est très loin d'être reconnue par le corps médical et crée
+        une incompréhension pour ne pas dire une opposition à une éventuelle
+        action ostéopathique à ce niveau.
+
+
+        La vie est mouvement, la mort est inertie.
+
+
+        Concevoir une activité aussi intense au niveau cérébral avec des
+        milliards de connexions nerveuses, là où le sang, circule à 0, 750
+        L/minute engendrant des pouls puissants dans une rythmique essentielle ;
+        une telle activité de vie peut-elle être contenue dans une boîte rigide,
+        fermée, inerte, morte ?
+
+
+        Cette activité énergétique cérébrale crée inévitablement des résonnances
+        ; est-ce aussi insensé de concevoir une boîte crânienne qui permette
+        leurs libérations ? Ne serait-ce pas  là une des fonctions de la suture
+        crânienne ?
+      image: /images/image.png
 ---
+
 
 
 
