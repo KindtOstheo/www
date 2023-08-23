@@ -78,7 +78,7 @@ features:
 
         La perte de mobilité peut-être plus ou moins complète, dans un ou
         plusieurs de ces plans.
-    - title: La lésion crânienne
+    - title: Le toucher ostéopathique au niveau crânien
       link: sensitive
       b_icon: true
       icon: link
@@ -95,7 +95,16 @@ features:
 
 
         Lors d'une lésion, sur tout ou partie de la suture, il y a des points
-        d'accroche qui font perdre, à l'os crânien concerné, sa liberté
+        d'accroche qui font perdre, à l'os crânien concerné, sa liberté. 
+
+
+        C'est le toucher ostéopathique qui va le dépister, tout un art.
+
+
+        Ce toucher est esentiellement sensitif. Suivant les endroits un ou deux
+        doigts de chaque côté de la suture. Une compression ou un étirement par
+        undoigt d'un côté, comment va-t-il être par l'autre doigt de l'autre
+        côté ?
 
 
         ###### "sensitive".
@@ -124,6 +133,7 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
+    - {}
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -220,6 +230,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
