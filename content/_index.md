@@ -105,10 +105,9 @@ features:
 
 
         Ce toucher est esentiellement sensitif. Une compression ou une
-        décompression sur un os, comment est-elle ressentie de l'autre côté de
-        la suturecomment estSuivant les endroits un ou deux doigts de chaque
-        côté de la suture. Une compression ou un étirement par undoigt d'un
-        côté, comment va-t-il être par l'autre doigt de l'autre côté ?
+        décompression d'un côté de la suture, comment est-elle ressentie de
+        l'autre côté de la suture. C'est ce ressenti qui déterminera s'il y a
+        lésion ou pas.
 
 
         ###### "sensitive".
@@ -234,6 +233,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
