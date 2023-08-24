@@ -104,11 +104,13 @@ features:
         tout un art bien sûr.
 
 
-        Ce toucher est esentiellement sensitif. Dans un respect des axes
-        d'emboîtement ; comment est ressenti une compression ou une
-        décompression, d'un bord à l'autre de la suture ? C'est ce ressenti qui
-        déterminera s'il y a lésion ou pas. Ce toucher s'apprend au même titre
-        qu'une connaissance anatomique très exacte.
+        Ce toucher est esentiellement sensitif. 
+
+
+        Dans un respect des axes d'emboîtement ; comment est ressenti une
+        compression ou une décompression, d'un bord à l'autre de la suture ?
+        C'est ce ressenti qui déterminera s'il y a lésion ou pas. Ce toucher
+        s'apprend au même titre qu'une connaissance anatomique très exacte.
     - title: L'Homéostasie
       b_icon: true
       icon: lock
@@ -231,6 +233,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
