@@ -79,7 +79,7 @@ features:
         La perte de mobilité peut-être plus ou moins complète, dans un ou
         plusieurs de ces plans.
     - title: Le toucher "sensitif" au niveau crânien
-      link: sensitive
+      link: sensitif
       b_icon: true
       icon: link
       content: >
@@ -230,6 +230,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
