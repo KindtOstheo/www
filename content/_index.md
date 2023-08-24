@@ -97,16 +97,18 @@ features:
         Suivant le lieu, la suture présente différentes formes : en peigne, bord
         à bord, en chevauchement, en rail, en point. Lors d'une lésion, sur tout
         ou partie de la suture, il y a des points d'accroche qui font perdre, à
-        l'os crânien concerné, sa liberté.
+        l'os crânien concerné, sa liberté "respiratoire".
 
 
-        C'est le toucher ostéopathique qui va le dépister, tout un art.
+        C'est le toucher ostéopathique qui va dépister cette perte de liberté,
+        tout un art bien sûr.
 
 
-        Ce toucher est esentiellement sensitif. Suivant les endroits un ou deux
-        doigts de chaque côté de la suture. Une compression ou un étirement par
-        undoigt d'un côté, comment va-t-il être par l'autre doigt de l'autre
-        côté ?
+        Ce toucher est esentiellement sensitif. Une compression ou une
+        décompression sur un os, comment est-elle ressentie de l'autre côté de
+        la suturecomment estSuivant les endroits un ou deux doigts de chaque
+        côté de la suture. Une compression ou un étirement par undoigt d'un
+        côté, comment va-t-il être par l'autre doigt de l'autre côté ?
 
 
         ###### "sensitive".
@@ -232,6 +234,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
