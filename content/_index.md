@@ -96,7 +96,7 @@ features:
         tout un art bien sûr.
 
 
-        Ce toucher est esentiellement sensitif. 
+        Ce toucher est esentiellement sensitif.
 
 
         Dans un respect des axes d'emboîtement ; comment est ressenti une
@@ -229,10 +229,12 @@ speciality:
 
         Cette activité énergétique cérébrale crée inévitablement des résonnances
         ; est-ce aussi insensé de concevoir une boîte crânienne qui permette
-        leurs libérations ? Ne serait-ce pas  là une des fonctions de la suture
-        crânienne ?
+        l'échappement de toutes ces résonnances ? Ne serait-ce pas  là une des
+        fonctions de la suture crânienne ? Pour le moment cela ne teste qu'une
+        hypothèse d'école.
       image: /images/image.png
 ---
+
 
 
 
