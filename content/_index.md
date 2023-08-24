@@ -89,13 +89,15 @@ features:
         ###### La lésion crânienne ostéopathique.
 
 
-        C'est la perte d'indépendance d'un ou plusieurs os du crâne. On ne parle
-        pas de mobilité, puisque les os ne bougent pas au sens articulaire du
-        terme.
+        La lésion ostéopathique est la perte d'indépendance d'un ou plusieurs os
+        du crâne. On ne parle pas de mobilité, puisque les os ne bougent pas au
+        sens articulaire du terme.
 
 
-        Lors d'une lésion, sur tout ou partie de la suture, il y a des points
-        d'accroche qui font perdre, à l'os crânien concerné, sa liberté. 
+        Suivant le lieu, la suture présente différentes formes : en peigne, bord
+        à bord, en chevauchement, en rail, en point. Lors d'une lésion, sur tout
+        ou partie de la suture, il y a des points d'accroche qui font perdre, à
+        l'os crânien concerné, sa liberté.
 
 
         C'est le toucher ostéopathique qui va le dépister, tout un art.
@@ -133,7 +135,7 @@ features:
         diam ornare volutpat in sagitis, aliquet. Arcu cursus
 speciality:
   list:
-    - {}
+    - description: ''
     - title: La Boîte Crânienne
       subtitle: Première approche
       description: >
@@ -230,6 +232,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
