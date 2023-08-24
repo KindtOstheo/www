@@ -206,7 +206,7 @@ speciality:
         une communauté de vie.
       image: /images/1688411679257.jpg
     - title: Les os constituants la boîte crânienne restent libres
-      subtitle: Accoler n'est pas coller
+      subtitle: Une hypothèse d'école
       description: >
         Les os constituants la boîte crânienne restent libres, ils sont accolés
         et pas collés.
@@ -234,6 +234,7 @@ speciality:
         hypothèse d'école.
       image: /images/image.png
 ---
+
 
 
 
