@@ -104,13 +104,10 @@ features:
         tout un art bien sûr.
 
 
-        Ce toucher est esentiellement sensitif. Une compression ou une
-        décompression d'un côté de la suture, comment est-elle ressentie de
-        l'autre côté de la suture. C'est ce ressenti qui déterminera s'il y a
-        lésion ou pas.
-
-
-        ###### "sensitive".
+        Ce toucher est esentiellement sensitif. Dans un respect des axes
+        d'emboîtement, une compression ou une décompression, d'un côté de la
+        suture; comment est-elle ressentie de l'autre côté de la suture. C'est
+        ce ressenti qui déterminera s'il y a lésion ou pas.
     - title: L'Homéostasie
       b_icon: true
       icon: lock
@@ -233,6 +230,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
