@@ -96,7 +96,7 @@ features:
 
         Suivant le lieu, la suture présente différentes formes : en peigne, bord
         à bord, en chevauchement, en rail, en point. Lors d'une lésion, sur tout
-        ou partie de la suture, il y a des points d'accroche qui font perdre, à
+        ou partie de la suture, il y a des zones d'accroche qui font perdre, à
         l'os crânien concerné, sa liberté "respiratoire".
 
 
@@ -105,9 +105,10 @@ features:
 
 
         Ce toucher est esentiellement sensitif. Dans un respect des axes
-        d'emboîtement, une compression ou une décompression, d'un côté de la
-        suture; comment est-elle ressentie de l'autre côté de la suture. C'est
-        ce ressenti qui déterminera s'il y a lésion ou pas.
+        d'emboîtement ; comment est ressenti une compression ou une
+        décompression, d'un bord à l'autre de la suture. C'est ce ressenti qui
+        déterminera s'il y a lésion ou pas. Ce toucher s'apprend au même titre
+        qu'une connaissance anatomique très exacte.
     - title: L'Homéostasie
       b_icon: true
       icon: lock
@@ -230,6 +231,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
