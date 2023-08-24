@@ -49,14 +49,6 @@ features:
         * L'encéphale est le contenu.
         * Le **contenu** et le contenant ont forcément une intimité de vie.
       f_content: 16
-    - title: Réflexion
-      b_icon: false
-      icon: wind
-      image: /images/Feuille 2.jpg
-      content: |
-        Si tout le monde est contre toi,
-        c'est toi qui a raison,
-        car il est impossible que le monde soit peuplé de tant de sages.
     - title: La lésion ostéopathique
       icon: shield
       image: /images/Feuille 3.png
@@ -111,6 +103,14 @@ features:
         compression ou une décompression, d'un bord à l'autre de la suture ?
         C'est ce ressenti qui déterminera s'il y a lésion ou pas. Ce toucher
         s'apprend au même titre qu'une connaissance anatomique très exacte.
+    - title: Réflexion
+      b_icon: false
+      icon: wind
+      image: /images/Feuille 2.jpg
+      content: |
+        Si tout le monde est contre toi,
+        c'est toi qui a raison,
+        car il est impossible que le monde soit peuplé de tant de sages.
     - title: L'Homéostasie
       b_icon: true
       icon: lock
@@ -233,6 +233,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
