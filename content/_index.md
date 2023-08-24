@@ -78,7 +78,7 @@ features:
 
         La perte de mobilité peut-être plus ou moins complète, dans un ou
         plusieurs de ces plans.
-    - title: Le toucher ostéopathique au niveau crânien
+    - title: Le toucher "sensitif" au niveau crânien
       link: sensitive
       b_icon: true
       icon: link
@@ -230,6 +230,7 @@ speciality:
         crânienne ?
       image: /images/image.png
 ---
+
 
 
 
