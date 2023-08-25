@@ -132,7 +132,33 @@ features:
       b_icon: true
       icon: wind
       image: /images/Platon Sartre.png
-      content: ''
+      content: >
+        Le rapport entre l'essence : le fait d'être et l'existence le fait
+        d'agir
+
+
+        Pour Platon l'homme se définit d'abord parcequ'il est homme (L'essence)
+
+
+        Pour Sartre l'homme se définit d'abord par ses actions. Pour lui
+        l'existence, précède l'essence. contrairment à Platon
+
+
+        Deux  conceptions, deux discours qui sont entendus  reconnus et pourtant
+        diamétralement opposés.
+
+
+        Prenons la liberté de faire une extrapolation entre deux conceptions de
+        la boîte crânienne.
+
+
+        * Une boîte crânienne complètement fermée, indépendante de la vie de
+        l'encéphale
+
+        * Une boîte crânienne ouverte, en vibration avec l'encéphale.
+
+
+        Est-ce que les deux conceptions ne peuvent-elles pas être entendues ?
 speciality:
   list:
     - description: ''
@@ -233,6 +259,7 @@ speciality:
         hypothèse d'école.
       image: /images/image.png
 ---
+
 
 
 
