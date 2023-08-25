@@ -128,12 +128,11 @@ features:
 
 
         Là où il y a désordre, est quand le corps n'arrive plus à le réguler.
-    - title: Magnetic Turning
+    - title: Platon - Sartre
       b_icon: true
       icon: wind
-      content: >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id
-        diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      image: /images/Platon Sartre.png
+      content: ''
 speciality:
   list:
     - description: ''
@@ -234,6 +233,7 @@ speciality:
         hypothèse d'école.
       image: /images/image.png
 ---
+
 
 
 
